@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300000, CPAN::Meta::Converter version 2.112150'
+generated_by: 'Dist::Zilla version 4.200007, CPAN::Meta::Converter version 2.110930'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -19,7 +19,6 @@ requires:
   Any::Renderer::Pretty::Console: 0
   Any::Renderer::Pretty::HTML: 0
   App::HTMLCalendarMonth::Indonesia: 0
-  App::LedgerUtils: 0
   App::OrgUtils: 0
   App::UniqFiles: 0
   App::perlmv: 0
@@ -32,7 +31,7 @@ requires:
   Business::ID::SIM: 0
   Calendar::Indonesia::Holiday: 0
   Config::Ini::OnDrugs: 0
-  Config::Tree: 0
+  Data::Dump::Ala::SHARYANTO: 0
   Data::Dump::OneLine: 0
   Data::Dump::PHP: 0
   Data::Dump::Partial: 0
@@ -77,6 +76,7 @@ requires:
   Org::To::Pod: 0
   Org::To::Text: 0
   Parse::Netstat: 0
+  Parse::Number::EN: 0
   Parse::Number::ID: 0
   Parse::PhoneNumber::ID: 0
   Passwd::Unix::Alt: 0
@@ -106,7 +106,6 @@ requires:
   Sub::Spec::HTTP: 0
   Sub::Spec::HTTP::Server: 0
   Sub::Spec::Object: 0
-  Sub::Spec::Response::Format: 0
   Sub::Spec::Runner: 0
   Sub::Spec::To::HTML: 0
   Sub::Spec::To::Org: 0
@@ -119,4 +118,4 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Authored/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored
-version: 0.01
+version: 0.02

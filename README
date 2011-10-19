@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.01
+    version 0.02
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -17,10 +17,9 @@ TASK CONTENTS
    Any::Renderer::Pretty::Console
    Any::Renderer::Pretty::HTML
    App::HTMLCalendarMonth::Indonesia
-   App::LedgerUtils
    App::OrgUtils
-   App::perlmv
    App::UniqFiles
+   App::perlmv
    Array::Find
    Array::Functions::Undoable
    Array::Iterator
@@ -30,18 +29,18 @@ TASK CONTENTS
    Business::ID::SIM
    Calendar::Indonesia::Holiday
    Config::Ini::OnDrugs
-   Config::Tree
+   Data::Dump::Ala::SHARYANTO
    Data::Dump::OneLine
-   Data::Dump::Partial
    Data::Dump::PHP
+   Data::Dump::Partial
    Data::Dump::Ruby
    Data::Format::Pretty
    Data::Format::Pretty::Console
    Data::Format::Pretty::HTML
    Data::Format::Pretty::JSON
-   Data::Format::Pretty::Perl
    Data::Format::Pretty::PHP
    Data::Format::Pretty::PHPSerialization
+   Data::Format::Pretty::Perl
    Data::Format::Pretty::Ruby
    Data::Format::Pretty::YAML
    Data::ModeMerge
@@ -54,6 +53,7 @@ TASK CONTENTS
    Gepok
    Git::Bunch
    HTTP::Daemon::UNIX
+   LWP::Protocol::http::SocketUnixAlt
    Language::Expr
    Ledger::Parser
    Lingua::EN::Number::Format::MixWithWords
@@ -66,7 +66,6 @@ TASK CONTENTS
    Log::Any::Adapter::ScreenColoredLevel
    Log::Any::App
    Log::Dispatch::Dir
-   LWP::Protocol::http::SocketUnixAlt
    Object::BlankStr
    Object::NulStr
    Object::SpaceBackStr
@@ -75,18 +74,19 @@ TASK CONTENTS
    Org::To::Pod
    Org::To::Text
    Parse::Netstat
+   Parse::Number::EN
    Parse::Number::ID
    Parse::PhoneNumber::ID
    Passwd::Unix::Alt
    Pod::Weaver::Plugin::SubSpec
    Process::KillTree
+   SHARYANTO::Utils
    Setup::File
    Setup::File::Symlink
    Setup::Multi
    Setup::Test
    Setup::Text::Snippet
    Setup::Unix::User
-   SHARYANTO::Utils
    Sub::Spec
    Sub::Spec::BashComplete
    Sub::Spec::Clause::drops_privilege
@@ -104,7 +104,6 @@ TASK CONTENTS
    Sub::Spec::HTTP
    Sub::Spec::HTTP::Server
    Sub::Spec::Object
-   Sub::Spec::Response::Format
    Sub::Spec::Runner
    Sub::Spec::To::HTML
    Sub::Spec::To::Org
