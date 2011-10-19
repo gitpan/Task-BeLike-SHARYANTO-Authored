@@ -1,0 +1,125 @@
+NAME
+    Task::BeLike::SHARYANTO::Authored - Install all modules authored by
+    SHARYANTO on CPAN
+
+VERSION
+    version 0.01
+
+DESCRIPTION
+    This task will install all modules authored by SHARYANTO currently on
+    CPAN. Excluded are other Task::* modules, or modules already deletd from
+    CPAN.
+
+TASK CONTENTS
+  Included modules
+   Acme::CPANAuthors::Female
+   Acme::CPANAuthors::Indonesian
+   Any::Renderer::Pretty::Console
+   Any::Renderer::Pretty::HTML
+   App::HTMLCalendarMonth::Indonesia
+   App::LedgerUtils
+   App::OrgUtils
+   App::perlmv
+   App::UniqFiles
+   Array::Find
+   Array::Functions::Undoable
+   Array::Iterator
+   Bench
+   Business::ID::NIK
+   Business::ID::NPWP
+   Business::ID::SIM
+   Calendar::Indonesia::Holiday
+   Config::Ini::OnDrugs
+   Config::Tree
+   Data::Dump::OneLine
+   Data::Dump::Partial
+   Data::Dump::PHP
+   Data::Dump::Ruby
+   Data::Format::Pretty
+   Data::Format::Pretty::Console
+   Data::Format::Pretty::HTML
+   Data::Format::Pretty::JSON
+   Data::Format::Pretty::Perl
+   Data::Format::Pretty::PHP
+   Data::Format::Pretty::PHPSerialization
+   Data::Format::Pretty::Ruby
+   Data::Format::Pretty::YAML
+   Data::ModeMerge
+   Data::Sah::Util
+   Devel::EndStats
+   File::RsyBak
+   File::Slurp::Shortcuts
+   Finance::Bank::ID::BCA
+   Finance::Bank::ID::Mandiri
+   Gepok
+   Git::Bunch
+   HTTP::Daemon::UNIX
+   Language::Expr
+   Ledger::Parser
+   Lingua::EN::Number::Format::MixWithWords
+   Lingua::ID::Number::Format::MixWithWords
+   Lingua::ID::Nums2Words
+   Lingua::ID::Words2Nums
+   Lingua::ZH::PinyinConvert::ID
+   Locale::ID::GuessGender::FromFirstName
+   Log::Any::Adapter::Callback
+   Log::Any::Adapter::ScreenColoredLevel
+   Log::Any::App
+   Log::Dispatch::Dir
+   LWP::Protocol::http::SocketUnixAlt
+   Object::BlankStr
+   Object::NulStr
+   Object::SpaceBackStr
+   Org::Parser
+   Org::To::HTML
+   Org::To::Pod
+   Org::To::Text
+   Parse::Netstat
+   Parse::Number::ID
+   Parse::PhoneNumber::ID
+   Passwd::Unix::Alt
+   Pod::Weaver::Plugin::SubSpec
+   Process::KillTree
+   Setup::File
+   Setup::File::Symlink
+   Setup::Multi
+   Setup::Test
+   Setup::Text::Snippet
+   Setup::Unix::User
+   SHARYANTO::Utils
+   Sub::Spec
+   Sub::Spec::BashComplete
+   Sub::Spec::Clause::drops_privilege
+   Sub::Spec::CmdLine
+   Sub::Spec::ConvertArgs::Array
+   Sub::Spec::DepChecker
+   Sub::Spec::Examples
+   Sub::Spec::Exporter
+   Sub::Spec::Gen::ForModule
+   Sub::Spec::Gen::ReadTable
+   Sub::Spec::GetArgs::Argv
+   Sub::Spec::GetArgs::Array
+   Sub::Spec::GetArgs::GetPost
+   Sub::Spec::GetArgs::Hash
+   Sub::Spec::HTTP
+   Sub::Spec::HTTP::Server
+   Sub::Spec::Object
+   Sub::Spec::Response::Format
+   Sub::Spec::Runner
+   Sub::Spec::To::HTML
+   Sub::Spec::To::Org
+   Sub::Spec::To::Pod
+   Sub::Spec::To::Text
+   Sub::Spec::URI
+   Sub::Spec::URI::http
+   Sub::Spec::Wrapper
+   WWW::GudangAPI
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2011 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
