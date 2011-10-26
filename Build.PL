@@ -17,7 +17,7 @@ my %module_build_args = (
     'Steven Haryanto <stevenharyanto@gmail.com>'
   ],
   'dist_name' => 'Task-BeLike-SHARYANTO-Authored',
-  'dist_version' => '0.02',
+  'dist_version' => '0.03',
   'license' => 'perl',
   'module_name' => 'Task::BeLike::SHARYANTO::Authored',
   'recommends' => {},
@@ -29,6 +29,7 @@ my %module_build_args = (
     'Any::Renderer::Pretty::HTML' => '0',
     'App::HTMLCalendarMonth::Indonesia' => '0',
     'App::OrgUtils' => '0',
+    'App::SerializeUtils' => '0',
     'App::UniqFiles' => '0',
     'App::perlmv' => '0',
     'Array::Find' => '0',
@@ -91,6 +92,7 @@ my %module_build_args = (
     'Passwd::Unix::Alt' => '0',
     'Pod::Weaver::Plugin::SubSpec' => '0',
     'Process::KillTree' => '0',
+    'RSS::From::Forum::vBulletin' => '0',
     'SHARYANTO::Utils' => '0',
     'Setup::File' => '0',
     'Setup::File::Symlink' => '0',
@@ -122,7 +124,9 @@ my %module_build_args = (
     'Sub::Spec::To::Text' => '0',
     'Sub::Spec::URI' => '0',
     'Sub::Spec::URI::http' => '0',
+    'Sub::Spec::Use' => '0',
     'Sub::Spec::Wrapper' => '0',
+    'Text::sprintfn' => '0',
     'WWW::GudangAPI' => '0'
   },
   'script_files' => []

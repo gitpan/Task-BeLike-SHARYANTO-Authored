@@ -20,6 +20,7 @@ requires:
   Any::Renderer::Pretty::HTML: 0
   App::HTMLCalendarMonth::Indonesia: 0
   App::OrgUtils: 0
+  App::SerializeUtils: 0
   App::UniqFiles: 0
   App::perlmv: 0
   Array::Find: 0
@@ -82,6 +83,7 @@ requires:
   Passwd::Unix::Alt: 0
   Pod::Weaver::Plugin::SubSpec: 0
   Process::KillTree: 0
+  RSS::From::Forum::vBulletin: 0
   SHARYANTO::Utils: 0
   Setup::File: 0
   Setup::File::Symlink: 0
@@ -113,9 +115,11 @@ requires:
   Sub::Spec::To::Text: 0
   Sub::Spec::URI: 0
   Sub::Spec::URI::http: 0
+  Sub::Spec::Use: 0
   Sub::Spec::Wrapper: 0
+  Text::sprintfn: 0
   WWW::GudangAPI: 0
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Authored/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored
-version: 0.02
+version: 0.03
