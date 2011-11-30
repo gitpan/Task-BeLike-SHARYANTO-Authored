@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.03
+    version 0.04
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -13,108 +13,6 @@ DESCRIPTION
 TASK CONTENTS
   Included modules
    Acme::CPANAuthors::Female
-   Acme::CPANAuthors::Indonesian
-   Any::Renderer::Pretty::Console
-   Any::Renderer::Pretty::HTML
-   App::HTMLCalendarMonth::Indonesia
-   App::OrgUtils
-   App::UniqFiles
-   App::perlmv
-   Array::Find
-   Array::Functions::Undoable
-   Array::Iterator
-   Bench
-   Business::ID::NIK
-   Business::ID::NPWP
-   Business::ID::SIM
-   Calendar::Indonesia::Holiday
-   Config::Ini::OnDrugs
-   Data::Dump::Ala::SHARYANTO
-   Data::Dump::OneLine
-   Data::Dump::PHP
-   Data::Dump::Partial
-   Data::Dump::Ruby
-   Data::Format::Pretty
-   Data::Format::Pretty::Console
-   Data::Format::Pretty::HTML
-   Data::Format::Pretty::JSON
-   Data::Format::Pretty::PHP
-   Data::Format::Pretty::PHPSerialization
-   Data::Format::Pretty::Perl
-   Data::Format::Pretty::Ruby
-   Data::Format::Pretty::YAML
-   Data::ModeMerge
-   Data::Sah::Util
-   Devel::EndStats
-   File::RsyBak
-   File::Slurp::Shortcuts
-   Finance::Bank::ID::BCA
-   Finance::Bank::ID::Mandiri
-   Gepok
-   Git::Bunch
-   HTTP::Daemon::UNIX
-   LWP::Protocol::http::SocketUnixAlt
-   Language::Expr
-   Ledger::Parser
-   Lingua::EN::Number::Format::MixWithWords
-   Lingua::ID::Number::Format::MixWithWords
-   Lingua::ID::Nums2Words
-   Lingua::ID::Words2Nums
-   Lingua::ZH::PinyinConvert::ID
-   Locale::ID::GuessGender::FromFirstName
-   Log::Any::Adapter::Callback
-   Log::Any::Adapter::ScreenColoredLevel
-   Log::Any::App
-   Log::Dispatch::Dir
-   Object::BlankStr
-   Object::NulStr
-   Object::SpaceBackStr
-   Org::Parser
-   Org::To::HTML
-   Org::To::Pod
-   Org::To::Text
-   Parse::Netstat
-   Parse::Number::EN
-   Parse::Number::ID
-   Parse::PhoneNumber::ID
-   Passwd::Unix::Alt
-   Pod::Weaver::Plugin::SubSpec
-   Process::KillTree
-   SHARYANTO::Utils
-   Setup::File
-   Setup::File::Symlink
-   Setup::Multi
-   Setup::Test
-   Setup::Text::Snippet
-   Setup::Unix::User
-   Sub::Spec
-   Sub::Spec::BashComplete
-   Sub::Spec::Clause::drops_privilege
-   Sub::Spec::CmdLine
-   Sub::Spec::ConvertArgs::Array
-   Sub::Spec::DepChecker
-   Sub::Spec::Examples
-   Sub::Spec::Exporter
-   Sub::Spec::Gen::ForModule
-   Sub::Spec::Gen::ReadTable
-   Sub::Spec::GetArgs::Argv
-   Sub::Spec::GetArgs::Array
-   Sub::Spec::GetArgs::GetPost
-   Sub::Spec::GetArgs::Hash
-   Sub::Spec::HTTP
-   Sub::Spec::HTTP::Server
-   Sub::Spec::Object
-   Sub::Spec::Runner
-   Sub::Spec::To::HTML
-   Sub::Spec::To::Org
-   Sub::Spec::To::Pod
-   Sub::Spec::To::Text
-   Sub::Spec::URI
-   Sub::Spec::URI::http
-   Sub::Spec::Wrapper
-   WWW::GudangAPI =pkg
-    Version =pkg required because: Acme::CPANAuthors::Female
-
    Acme::CPANAuthors::Indonesian
    Any::Renderer::Pretty::Console
    Any::Renderer::Pretty::HTML
@@ -147,7 +45,7 @@ TASK CONTENTS
    Data::Format::Pretty::Ruby
    Data::Format::Pretty::YAML
    Data::ModeMerge
-   Data::Sah::Util
+   Data::Sah
    Devel::EndStats
    File::RsyBak
    File::Slurp::Shortcuts
@@ -183,6 +81,7 @@ TASK CONTENTS
    Passwd::Unix::Alt
    Pod::Weaver::Plugin::SubSpec
    Process::KillTree
+   RSS::From::Forum::VBulletin
    RSS::From::Forum::vBulletin
    SHARYANTO::Utils
    Setup::File
@@ -215,6 +114,7 @@ TASK CONTENTS
    Sub::Spec::To::Text
    Sub::Spec::URI
    Sub::Spec::URI::http
+   Sub::Spec::Undo::Storage
    Sub::Spec::Use
    Sub::Spec::Wrapper
    Text::sprintfn

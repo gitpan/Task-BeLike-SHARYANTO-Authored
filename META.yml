@@ -47,7 +47,7 @@ requires:
   Data::Format::Pretty::Ruby: 0
   Data::Format::Pretty::YAML: 0
   Data::ModeMerge: 0
-  Data::Sah::Util: 0
+  Data::Sah: 0
   Devel::EndStats: 0
   File::RsyBak: 0
   File::Slurp::Shortcuts: 0
@@ -83,6 +83,7 @@ requires:
   Passwd::Unix::Alt: 0
   Pod::Weaver::Plugin::SubSpec: 0
   Process::KillTree: 0
+  RSS::From::Forum::VBulletin: 0
   RSS::From::Forum::vBulletin: 0
   SHARYANTO::Utils: 0
   Setup::File: 0
@@ -115,6 +116,7 @@ requires:
   Sub::Spec::To::Text: 0
   Sub::Spec::URI: 0
   Sub::Spec::URI::http: 0
+  Sub::Spec::Undo::Storage: 0
   Sub::Spec::Use: 0
   Sub::Spec::Wrapper: 0
   Text::sprintfn: 0
@@ -122,4 +124,4 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Authored/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored
-version: 0.03
+version: 0.04
