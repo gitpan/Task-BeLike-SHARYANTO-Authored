@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.04
+    version 0.05
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -26,6 +26,7 @@ TASK CONTENTS
    Array::Iterator
    Bench
    Business::ID::NIK
+   Business::ID::NOPPBB
    Business::ID::NPWP
    Business::ID::SIM
    Calendar::Indonesia::Holiday
@@ -46,6 +47,7 @@ TASK CONTENTS
    Data::Format::Pretty::YAML
    Data::ModeMerge
    Data::Sah
+   Data::Sah::Util
    Devel::EndStats
    File::RsyBak
    File::Slurp::Shortcuts
@@ -63,6 +65,8 @@ TASK CONTENTS
    Lingua::ID::Words2Nums
    Lingua::ZH::PinyinConvert::ID
    Locale::ID::GuessGender::FromFirstName
+   Locale::ID::Locality
+   Locale::ID::Province
    Log::Any::Adapter::Callback
    Log::Any::Adapter::ScreenColoredLevel
    Log::Any::App
@@ -79,51 +83,51 @@ TASK CONTENTS
    Parse::Number::ID
    Parse::PhoneNumber::ID
    Passwd::Unix::Alt
+   Perinci
+   Perinci::Access::HTTP::Client
+   Perinci::Access::HTTP::Server
+   Perinci::Access::TCP::Client
+   Perinci::Access::TCP::Server
+   Perinci::BashComplete
+   Perinci::CmdLine
+   Perinci::Examples
+   Perinci::Exporter
+   Perinci::Object
+   Perinci::Sub::ConvertArgs::Array
+   Perinci::Sub::DepChecker
+   Perinci::Sub::Gen::AccessTable
+   Perinci::Sub::Gen::ForModule
+   Perinci::Sub::GetArgs::Argv
+   Perinci::Sub::GetArgs::Array
+   Perinci::Sub::To::HTML
+   Perinci::Sub::To::POD
+   Perinci::Sub::To::Text
+   Perinci::Sub::Undo::Storage
+   Perinci::Sub::Wrapper
+   Perinci::Sub::property::drops_privilege
+   Perinci::Sub::property::retry
+   Perinci::Sub::property::timeout
+   Perinci::Use
    Pod::Weaver::Plugin::SubSpec
    Process::KillTree
-   RSS::From::Forum::VBulletin
    RSS::From::Forum::vBulletin
+   Riap
+   Rinci
    SHARYANTO::Utils
+   Serabi
    Setup::File
    Setup::File::Symlink
    Setup::Multi
    Setup::Test
    Setup::Text::Snippet
    Setup::Unix::User
-   Sub::Spec
-   Sub::Spec::BashComplete
-   Sub::Spec::Clause::drops_privilege
-   Sub::Spec::CmdLine
-   Sub::Spec::ConvertArgs::Array
-   Sub::Spec::DepChecker
-   Sub::Spec::Examples
-   Sub::Spec::Exporter
-   Sub::Spec::Gen::ForModule
-   Sub::Spec::Gen::ReadTable
-   Sub::Spec::GetArgs::Argv
-   Sub::Spec::GetArgs::Array
-   Sub::Spec::GetArgs::GetPost
-   Sub::Spec::GetArgs::Hash
-   Sub::Spec::HTTP
-   Sub::Spec::HTTP::Server
-   Sub::Spec::Object
-   Sub::Spec::Runner
-   Sub::Spec::To::HTML
-   Sub::Spec::To::Org
-   Sub::Spec::To::Pod
-   Sub::Spec::To::Text
-   Sub::Spec::URI
-   Sub::Spec::URI::http
-   Sub::Spec::Undo::Storage
-   Sub::Spec::Use
-   Sub::Spec::Wrapper
    Text::sprintfn
    WWW::GudangAPI
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2011 by Steven Haryanto.
+    This software is copyright (c) 2012 by Steven Haryanto.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.

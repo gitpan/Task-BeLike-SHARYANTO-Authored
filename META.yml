@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200007, CPAN::Meta::Converter version 2.110930'
+generated_by: 'Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -28,6 +28,7 @@ requires:
   Array::Iterator: 0
   Bench: 0
   Business::ID::NIK: 0
+  Business::ID::NOPPBB: 0
   Business::ID::NPWP: 0
   Business::ID::SIM: 0
   Calendar::Indonesia::Holiday: 0
@@ -48,6 +49,7 @@ requires:
   Data::Format::Pretty::YAML: 0
   Data::ModeMerge: 0
   Data::Sah: 0
+  Data::Sah::Util: 0
   Devel::EndStats: 0
   File::RsyBak: 0
   File::Slurp::Shortcuts: 0
@@ -65,6 +67,8 @@ requires:
   Lingua::ID::Words2Nums: 0
   Lingua::ZH::PinyinConvert::ID: 0
   Locale::ID::GuessGender::FromFirstName: 0
+  Locale::ID::Locality: 0
+  Locale::ID::Province: 0
   Log::Any::Adapter::Callback: 0
   Log::Any::Adapter::ScreenColoredLevel: 0
   Log::Any::App: 0
@@ -81,47 +85,47 @@ requires:
   Parse::Number::ID: 0
   Parse::PhoneNumber::ID: 0
   Passwd::Unix::Alt: 0
+  Perinci: 0
+  Perinci::Access::HTTP::Client: 0
+  Perinci::Access::HTTP::Server: 0
+  Perinci::Access::TCP::Client: 0
+  Perinci::Access::TCP::Server: 0
+  Perinci::BashComplete: 0
+  Perinci::CmdLine: 0
+  Perinci::Examples: 0
+  Perinci::Exporter: 0
+  Perinci::Object: 0
+  Perinci::Sub::ConvertArgs::Array: 0
+  Perinci::Sub::DepChecker: 0
+  Perinci::Sub::Gen::AccessTable: 0
+  Perinci::Sub::Gen::ForModule: 0
+  Perinci::Sub::GetArgs::Argv: 0
+  Perinci::Sub::GetArgs::Array: 0
+  Perinci::Sub::To::HTML: 0
+  Perinci::Sub::To::POD: 0
+  Perinci::Sub::To::Text: 0
+  Perinci::Sub::Undo::Storage: 0
+  Perinci::Sub::Wrapper: 0
+  Perinci::Sub::property::drops_privilege: 0
+  Perinci::Sub::property::retry: 0
+  Perinci::Sub::property::timeout: 0
+  Perinci::Use: 0
   Pod::Weaver::Plugin::SubSpec: 0
   Process::KillTree: 0
-  RSS::From::Forum::VBulletin: 0
   RSS::From::Forum::vBulletin: 0
+  Riap: 0
+  Rinci: 0
   SHARYANTO::Utils: 0
+  Serabi: 0
   Setup::File: 0
   Setup::File::Symlink: 0
   Setup::Multi: 0
   Setup::Test: 0
   Setup::Text::Snippet: 0
   Setup::Unix::User: 0
-  Sub::Spec: 0
-  Sub::Spec::BashComplete: 0
-  Sub::Spec::Clause::drops_privilege: 0
-  Sub::Spec::CmdLine: 0
-  Sub::Spec::ConvertArgs::Array: 0
-  Sub::Spec::DepChecker: 0
-  Sub::Spec::Examples: 0
-  Sub::Spec::Exporter: 0
-  Sub::Spec::Gen::ForModule: 0
-  Sub::Spec::Gen::ReadTable: 0
-  Sub::Spec::GetArgs::Argv: 0
-  Sub::Spec::GetArgs::Array: 0
-  Sub::Spec::GetArgs::GetPost: 0
-  Sub::Spec::GetArgs::Hash: 0
-  Sub::Spec::HTTP: 0
-  Sub::Spec::HTTP::Server: 0
-  Sub::Spec::Object: 0
-  Sub::Spec::Runner: 0
-  Sub::Spec::To::HTML: 0
-  Sub::Spec::To::Org: 0
-  Sub::Spec::To::Pod: 0
-  Sub::Spec::To::Text: 0
-  Sub::Spec::URI: 0
-  Sub::Spec::URI::http: 0
-  Sub::Spec::Undo::Storage: 0
-  Sub::Spec::Use: 0
-  Sub::Spec::Wrapper: 0
   Text::sprintfn: 0
   WWW::GudangAPI: 0
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Authored/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored
-version: 0.04
+version: 0.05
