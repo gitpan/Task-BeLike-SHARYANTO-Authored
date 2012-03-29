@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.05
+    version 0.06
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -25,6 +25,7 @@ TASK CONTENTS
    Array::Functions::Undoable
    Array::Iterator
    Bench
+   Builtin::Logged
    Business::ID::NIK
    Business::ID::NOPPBB
    Business::ID::NPWP
@@ -84,43 +85,42 @@ TASK CONTENTS
    Parse::PhoneNumber::ID
    Passwd::Unix::Alt
    Perinci
-   Perinci::Access::HTTP::Client
    Perinci::Access::HTTP::Server
-   Perinci::Access::TCP::Client
-   Perinci::Access::TCP::Server
    Perinci::BashComplete
    Perinci::CmdLine
    Perinci::Examples
-   Perinci::Exporter
+   Perinci::Gen::ForModule
    Perinci::Object
    Perinci::Sub::ConvertArgs::Array
    Perinci::Sub::DepChecker
    Perinci::Sub::Gen::AccessTable
-   Perinci::Sub::Gen::ForModule
    Perinci::Sub::GetArgs::Argv
    Perinci::Sub::GetArgs::Array
-   Perinci::Sub::To::HTML
-   Perinci::Sub::To::POD
-   Perinci::Sub::To::Text
-   Perinci::Sub::Undo::Storage
    Perinci::Sub::Wrapper
    Perinci::Sub::property::drops_privilege
+   Perinci::Sub::property::result_postfilter
    Perinci::Sub::property::retry
    Perinci::Sub::property::timeout
+   Perinci::To::HTML
+   Perinci::To::POD
+   Perinci::To::Text
    Perinci::Use
-   Pod::Weaver::Plugin::SubSpec
+   Pod::Weaver::Plugin::Perinci
    Process::KillTree
    RSS::From::Forum::vBulletin
    Riap
    Rinci
+   SHARYANTO::String::Util
    SHARYANTO::Utils
    Serabi
+   Setup
    Setup::File
    Setup::File::Symlink
    Setup::Multi
    Setup::Test
    Setup::Text::Snippet
    Setup::Unix::User
+   Test::Setup
    Text::sprintfn
    WWW::GudangAPI
 AUTHOR
