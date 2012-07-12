@@ -14,7 +14,6 @@ meta-spec:
   version: 1.4
 name: Task-BeLike-SHARYANTO-Authored
 requires:
-  Acme::CPANAuthors::Female: 0
   Acme::CPANAuthors::Indonesian: 0
   Any::Renderer::Pretty::Console: 0
   Any::Renderer::Pretty::HTML: 0
@@ -28,6 +27,10 @@ requires:
   Array::Iterator: 0
   Bench: 0
   Builtin::Logged: 0
+  Business::BankCard: 0
+  Business::BankCard::Indonesia: 0
+  Business::BankList: 0
+  Business::BankList::Indonesia: 0
   Business::ID::NIK: 0
   Business::ID::NOPPBB: 0
   Business::ID::NPWP: 0
@@ -35,6 +38,7 @@ requires:
   Calendar::Indonesia::Holiday: 0
   Config::Ini::OnDrugs: 0
   Data::Dump::Ala::SHARYANTO: 0
+  Data::Dump::Color: 0
   Data::Dump::OneLine: 0
   Data::Dump::PHP: 0
   Data::Dump::Partial: 0
@@ -52,14 +56,20 @@ requires:
   Data::Sah: 0
   Data::Sah::Util: 0
   Devel::EndStats: 0
+  Dist::Zilla::PluginBundle::SHARYANTO: 0
   File::RsyBak: 0
   File::Slurp::Shortcuts: 0
+  File::Trash::FreeDesktop: 0
+  File::Trash::Undoable: 0
   Finance::Bank::ID::BCA: 0
+  Finance::Bank::ID::BPRKS: 0
   Finance::Bank::ID::Mandiri: 0
   Gepok: 0
   Git::Bunch: 0
   HTTP::Daemon::UNIX: 0
+  HTTP::Daemon::patch::ipv6: 0
   LWP::Protocol::http::SocketUnixAlt: 0
+  LWP::UserAgent::patch::https_hard_timeout: 0
   Language::Expr: 0
   Ledger::Parser: 0
   Lingua::EN::Number::Format::MixWithWords: 0
@@ -73,7 +83,10 @@ requires:
   Log::Any::Adapter::Callback: 0
   Log::Any::Adapter::ScreenColoredLevel: 0
   Log::Any::App: 0
+  Log::Any::For::Class: 0
+  Log::Any::For::DBI: 0
   Log::Dispatch::Dir: 0
+  Module::Patch: 0
   Object::BlankStr: 0
   Object::NulStr: 0
   Object::SpaceBackStr: 0
@@ -87,6 +100,7 @@ requires:
   Parse::PhoneNumber::ID: 0
   Passwd::Unix::Alt: 0
   Perinci: 0
+  Perinci::Access::HTTP::Client: 0
   Perinci::Access::HTTP::Server: 0
   Perinci::BashComplete: 0
   Perinci::CmdLine: 0
@@ -96,6 +110,8 @@ requires:
   Perinci::Sub::ConvertArgs::Array: 0
   Perinci::Sub::DepChecker: 0
   Perinci::Sub::Gen::AccessTable: 0
+  Perinci::Sub::Gen::AccessTable::DBI: 0
+  Perinci::Sub::Gen::Undoable: 0
   Perinci::Sub::GetArgs::Argv: 0
   Perinci::Sub::GetArgs::Array: 0
   Perinci::Sub::Wrapper: 0
@@ -106,6 +122,7 @@ requires:
   Perinci::To::HTML: 0
   Perinci::To::POD: 0
   Perinci::To::Text: 0
+  Perinci::Tx::Manager: 0
   Perinci::Use: 0
   Pod::Weaver::Plugin::Perinci: 0
   Process::KillTree: 0
@@ -128,4 +145,4 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Authored/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored
-version: 0.06
+version: 0.07

@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.06
+    version 0.07
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -12,7 +12,6 @@ DESCRIPTION
 
 TASK CONTENTS
   Included modules
-   Acme::CPANAuthors::Female
    Acme::CPANAuthors::Indonesian
    Any::Renderer::Pretty::Console
    Any::Renderer::Pretty::HTML
@@ -26,6 +25,10 @@ TASK CONTENTS
    Array::Iterator
    Bench
    Builtin::Logged
+   Business::BankCard
+   Business::BankCard::Indonesia
+   Business::BankList
+   Business::BankList::Indonesia
    Business::ID::NIK
    Business::ID::NOPPBB
    Business::ID::NPWP
@@ -33,6 +36,7 @@ TASK CONTENTS
    Calendar::Indonesia::Holiday
    Config::Ini::OnDrugs
    Data::Dump::Ala::SHARYANTO
+   Data::Dump::Color
    Data::Dump::OneLine
    Data::Dump::PHP
    Data::Dump::Partial
@@ -50,14 +54,20 @@ TASK CONTENTS
    Data::Sah
    Data::Sah::Util
    Devel::EndStats
+   Dist::Zilla::PluginBundle::SHARYANTO
    File::RsyBak
    File::Slurp::Shortcuts
+   File::Trash::FreeDesktop
+   File::Trash::Undoable
    Finance::Bank::ID::BCA
+   Finance::Bank::ID::BPRKS
    Finance::Bank::ID::Mandiri
    Gepok
    Git::Bunch
    HTTP::Daemon::UNIX
+   HTTP::Daemon::patch::ipv6
    LWP::Protocol::http::SocketUnixAlt
+   LWP::UserAgent::patch::https_hard_timeout
    Language::Expr
    Ledger::Parser
    Lingua::EN::Number::Format::MixWithWords
@@ -71,7 +81,10 @@ TASK CONTENTS
    Log::Any::Adapter::Callback
    Log::Any::Adapter::ScreenColoredLevel
    Log::Any::App
+   Log::Any::For::Class
+   Log::Any::For::DBI
    Log::Dispatch::Dir
+   Module::Patch
    Object::BlankStr
    Object::NulStr
    Object::SpaceBackStr
@@ -85,6 +98,7 @@ TASK CONTENTS
    Parse::PhoneNumber::ID
    Passwd::Unix::Alt
    Perinci
+   Perinci::Access::HTTP::Client
    Perinci::Access::HTTP::Server
    Perinci::BashComplete
    Perinci::CmdLine
@@ -94,6 +108,8 @@ TASK CONTENTS
    Perinci::Sub::ConvertArgs::Array
    Perinci::Sub::DepChecker
    Perinci::Sub::Gen::AccessTable
+   Perinci::Sub::Gen::AccessTable::DBI
+   Perinci::Sub::Gen::Undoable
    Perinci::Sub::GetArgs::Argv
    Perinci::Sub::GetArgs::Array
    Perinci::Sub::Wrapper
@@ -104,6 +120,7 @@ TASK CONTENTS
    Perinci::To::HTML
    Perinci::To::POD
    Perinci::To::Text
+   Perinci::Tx::Manager
    Perinci::Use
    Pod::Weaver::Plugin::Perinci
    Process::KillTree
