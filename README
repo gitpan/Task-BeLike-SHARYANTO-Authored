@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.07
+    version 0.08
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -33,6 +33,7 @@ TASK CONTENTS
    Business::ID::NOPPBB
    Business::ID::NPWP
    Business::ID::SIM
+   CPAN::Critic::Module::Abstract
    Calendar::Indonesia::Holiday
    Config::Ini::OnDrugs
    Data::Dump::Ala::SHARYANTO
@@ -53,6 +54,8 @@ TASK CONTENTS
    Data::ModeMerge
    Data::Sah
    Data::Sah::Util
+   Data::Unixish
+   Data::Unixish::Implementation
    Devel::EndStats
    Dist::Zilla::PluginBundle::SHARYANTO
    File::RsyBak
@@ -62,12 +65,14 @@ TASK CONTENTS
    Finance::Bank::ID::BCA
    Finance::Bank::ID::BPRKS
    Finance::Bank::ID::Mandiri
+   Finance::Currency::Convert::KlikBCA
    Gepok
    Git::Bunch
    HTTP::Daemon::UNIX
    HTTP::Daemon::patch::ipv6
    LWP::Protocol::http::SocketUnixAlt
    LWP::UserAgent::patch::https_hard_timeout
+   LWP::UserAgent::patch::log_response
    Language::Expr
    Ledger::Parser
    Lingua::EN::Number::Format::MixWithWords
@@ -83,8 +88,10 @@ TASK CONTENTS
    Log::Any::App
    Log::Any::For::Class
    Log::Any::For::DBI
+   Log::Any::For::LWP
    Log::Dispatch::Dir
    Module::Patch
+   Net::HTTP::Methods::patch::log_request
    Object::BlankStr
    Object::NulStr
    Object::SpaceBackStr
@@ -96,10 +103,13 @@ TASK CONTENTS
    Parse::Number::EN
    Parse::Number::ID
    Parse::PhoneNumber::ID
+   Parse::VarName
    Passwd::Unix::Alt
    Perinci
    Perinci::Access::HTTP::Client
    Perinci::Access::HTTP::Server
+   Perinci::Access::TCP::Client
+   Perinci::Access::TCP::Server
    Perinci::BashComplete
    Perinci::CmdLine
    Perinci::Examples
@@ -138,7 +148,9 @@ TASK CONTENTS
    Setup::Text::Snippet
    Setup::Unix::User
    Test::Setup
+   Text::PrettyTable
    Text::sprintfn
+   Tie::Diamond
    WWW::GudangAPI
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>

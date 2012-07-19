@@ -35,6 +35,7 @@ requires:
   Business::ID::NOPPBB: 0
   Business::ID::NPWP: 0
   Business::ID::SIM: 0
+  CPAN::Critic::Module::Abstract: 0
   Calendar::Indonesia::Holiday: 0
   Config::Ini::OnDrugs: 0
   Data::Dump::Ala::SHARYANTO: 0
@@ -55,6 +56,8 @@ requires:
   Data::ModeMerge: 0
   Data::Sah: 0
   Data::Sah::Util: 0
+  Data::Unixish: 0
+  Data::Unixish::Implementation: 0
   Devel::EndStats: 0
   Dist::Zilla::PluginBundle::SHARYANTO: 0
   File::RsyBak: 0
@@ -64,12 +67,14 @@ requires:
   Finance::Bank::ID::BCA: 0
   Finance::Bank::ID::BPRKS: 0
   Finance::Bank::ID::Mandiri: 0
+  Finance::Currency::Convert::KlikBCA: 0
   Gepok: 0
   Git::Bunch: 0
   HTTP::Daemon::UNIX: 0
   HTTP::Daemon::patch::ipv6: 0
   LWP::Protocol::http::SocketUnixAlt: 0
   LWP::UserAgent::patch::https_hard_timeout: 0
+  LWP::UserAgent::patch::log_response: 0
   Language::Expr: 0
   Ledger::Parser: 0
   Lingua::EN::Number::Format::MixWithWords: 0
@@ -85,8 +90,10 @@ requires:
   Log::Any::App: 0
   Log::Any::For::Class: 0
   Log::Any::For::DBI: 0
+  Log::Any::For::LWP: 0
   Log::Dispatch::Dir: 0
   Module::Patch: 0
+  Net::HTTP::Methods::patch::log_request: 0
   Object::BlankStr: 0
   Object::NulStr: 0
   Object::SpaceBackStr: 0
@@ -98,10 +105,13 @@ requires:
   Parse::Number::EN: 0
   Parse::Number::ID: 0
   Parse::PhoneNumber::ID: 0
+  Parse::VarName: 0
   Passwd::Unix::Alt: 0
   Perinci: 0
   Perinci::Access::HTTP::Client: 0
   Perinci::Access::HTTP::Server: 0
+  Perinci::Access::TCP::Client: 0
+  Perinci::Access::TCP::Server: 0
   Perinci::BashComplete: 0
   Perinci::CmdLine: 0
   Perinci::Examples: 0
@@ -140,9 +150,11 @@ requires:
   Setup::Text::Snippet: 0
   Setup::Unix::User: 0
   Test::Setup: 0
+  Text::PrettyTable: 0
   Text::sprintfn: 0
+  Tie::Diamond: 0
   WWW::GudangAPI: 0
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Authored/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored
-version: 0.07
+version: 0.08
