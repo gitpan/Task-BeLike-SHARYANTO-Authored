@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.08
+    version 0.09
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -13,6 +13,7 @@ DESCRIPTION
 TASK CONTENTS
   Included modules
    Acme::CPANAuthors::Indonesian
+   Alt::Monkey::Patch::SHARYANTO
    Any::Renderer::Pretty::Console
    Any::Renderer::Pretty::HTML
    App::HTMLCalendarMonth::Indonesia
@@ -36,6 +37,7 @@ TASK CONTENTS
    CPAN::Critic::Module::Abstract
    Calendar::Indonesia::Holiday
    Config::Ini::OnDrugs
+   Data::Clean::JSON
    Data::Dump::Ala::SHARYANTO
    Data::Dump::Color
    Data::Dump::OneLine
@@ -55,7 +57,6 @@ TASK CONTENTS
    Data::Sah
    Data::Sah::Util
    Data::Unixish
-   Data::Unixish::Implementation
    Devel::EndStats
    Dist::Zilla::PluginBundle::SHARYANTO
    File::RsyBak
@@ -108,11 +109,12 @@ TASK CONTENTS
    Perinci
    Perinci::Access::HTTP::Client
    Perinci::Access::HTTP::Server
-   Perinci::Access::TCP::Client
-   Perinci::Access::TCP::Server
+   Perinci::Access::Simple::Client
+   Perinci::Access::Simple::Server
    Perinci::BashComplete
    Perinci::CmdLine
    Perinci::Examples
+   Perinci::Exporter
    Perinci::Gen::ForModule
    Perinci::Object
    Perinci::Sub::ConvertArgs::Array
@@ -123,6 +125,8 @@ TASK CONTENTS
    Perinci::Sub::GetArgs::Argv
    Perinci::Sub::GetArgs::Array
    Perinci::Sub::Wrapper
+   Perinci::Sub::property::curry
+   Perinci::Sub::property::dies_on_error
    Perinci::Sub::property::drops_privilege
    Perinci::Sub::property::result_postfilter
    Perinci::Sub::property::retry
@@ -130,15 +134,18 @@ TASK CONTENTS
    Perinci::To::HTML
    Perinci::To::POD
    Perinci::To::Text
-   Perinci::Tx::Manager
    Perinci::Use
+   Perinci::Util
+   Perinci::Web
    Pod::Weaver::Plugin::Perinci
+   Pod::Weaver::Section::Changes
    Process::KillTree
    RSS::From::Forum::vBulletin
    Riap
    Rinci
    SHARYANTO::String::Util
    SHARYANTO::Utils
+   Sah
    Serabi
    Setup
    Setup::File
@@ -147,10 +154,12 @@ TASK CONTENTS
    Setup::Test
    Setup::Text::Snippet
    Setup::Unix::User
+   Syntax::Feature::EachOnArray
    Test::Setup
    Text::PrettyTable
    Text::sprintfn
    Tie::Diamond
+   Unixish
    WWW::GudangAPI
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
