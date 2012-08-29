@@ -19,9 +19,12 @@ requires:
   Any::Renderer::Pretty::Console: 0
   Any::Renderer::Pretty::HTML: 0
   App::HTMLCalendarMonth::Indonesia: 0
+  App::HasPrereqs: 0
+  App::LintPrereqs: 0
   App::OrgUtils: 0
   App::SerializeUtils: 0
   App::UniqFiles: 0
+  App::dux: 0
   App::perlmv: 0
   Array::Find: 0
   Array::Functions::Undoable: 0
@@ -60,6 +63,7 @@ requires:
   Data::Sah::Util: 0
   Data::Unixish: 0
   Devel::EndStats: 0
+  Dist::Zilla::Plugin::Extras: 0
   Dist::Zilla::PluginBundle::SHARYANTO: 0
   File::RsyBak: 0
   File::Slurp::Shortcuts: 0
@@ -71,17 +75,18 @@ requires:
   Finance::Currency::Convert::KlikBCA: 0
   Gepok: 0
   Git::Bunch: 0
+  HTTP::Daemon::Patch::IPv6: 0
   HTTP::Daemon::UNIX: 0
-  HTTP::Daemon::patch::ipv6: 0
   LWP::Protocol::http::SocketUnixAlt: 0
-  LWP::UserAgent::patch::https_hard_timeout: 0
-  LWP::UserAgent::patch::log_response: 0
+  LWP::UserAgent::Patch::HTTPSHardTimeout: 0
+  LWP::UserAgent::Patch::LogResponse: 0
   Language::Expr: 0
   Ledger::Parser: 0
   Lingua::EN::Number::Format::MixWithWords: 0
   Lingua::ID::Number::Format::MixWithWords: 0
   Lingua::ID::Nums2Words: 0
   Lingua::ID::Words2Nums: 0
+  Lingua::SU::Nums2Words: 0
   Lingua::ZH::PinyinConvert::ID: 0
   Locale::ID::GuessGender::FromFirstName: 0
   Locale::ID::Locality: 0
@@ -94,7 +99,7 @@ requires:
   Log::Any::For::LWP: 0
   Log::Dispatch::Dir: 0
   Module::Patch: 0
-  Net::HTTP::Methods::patch::log_request: 0
+  Net::HTTP::Methods::Patch::LogRequest: 0
   Object::BlankStr: 0
   Object::NulStr: 0
   Object::SpaceBackStr: 0
@@ -109,33 +114,40 @@ requires:
   Parse::VarName: 0
   Passwd::Unix::Alt: 0
   Perinci: 0
+  Perinci::Access: 0
+  Perinci::Access::Base: 0
   Perinci::Access::HTTP::Client: 0
   Perinci::Access::HTTP::Server: 0
+  Perinci::Access::InProcess: 0
   Perinci::Access::Simple::Client: 0
   Perinci::Access::Simple::Server: 0
   Perinci::BashComplete: 0
   Perinci::CmdLine: 0
+  Perinci::Easy: 0
   Perinci::Examples: 0
   Perinci::Exporter: 0
   Perinci::Gen::ForModule: 0
   Perinci::Object: 0
+  Perinci::Result::Format: 0
   Perinci::Sub::ConvertArgs::Array: 0
+  Perinci::Sub::Dep::pm: 0
   Perinci::Sub::DepChecker: 0
+  Perinci::Sub::Gen: 0
   Perinci::Sub::Gen::AccessTable: 0
   Perinci::Sub::Gen::AccessTable::DBI: 0
-  Perinci::Sub::Gen::Undoable: 0
   Perinci::Sub::GetArgs::Argv: 0
   Perinci::Sub::GetArgs::Array: 0
+  Perinci::Sub::Property::curry: 0
+  Perinci::Sub::Property::dies_on_error: 0
+  Perinci::Sub::Property::drops_privilege: 0
+  Perinci::Sub::Property::result_postfilter: 0
+  Perinci::Sub::Property::retry: 0
+  Perinci::Sub::Property::timeout: 0
   Perinci::Sub::Wrapper: 0
-  Perinci::Sub::property::curry: 0
-  Perinci::Sub::property::dies_on_error: 0
-  Perinci::Sub::property::drops_privilege: 0
-  Perinci::Sub::property::result_postfilter: 0
-  Perinci::Sub::property::retry: 0
-  Perinci::Sub::property::timeout: 0
   Perinci::To::HTML: 0
   Perinci::To::POD: 0
   Perinci::To::Text: 0
+  Perinci::Tx::Manager: 0
   Perinci::Use: 0
   Perinci::Util: 0
   Perinci::Web: 0
@@ -152,12 +164,9 @@ requires:
   Setup: 0
   Setup::File: 0
   Setup::File::Symlink: 0
-  Setup::Multi: 0
-  Setup::Test: 0
   Setup::Text::Snippet: 0
   Setup::Unix::User: 0
   Syntax::Feature::EachOnArray: 0
-  Test::Setup: 0
   Text::PrettyTable: 0
   Text::sprintfn: 0
   Tie::Diamond: 0
@@ -166,4 +175,4 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Authored/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored
-version: 0.09
+version: 0.1
