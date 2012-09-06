@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.1
+    version 0.11
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -13,7 +13,6 @@ DESCRIPTION
 TASK CONTENTS
   Included modules
    Acme::CPANAuthors::Indonesian
-   Alt::Monkey::Patch::SHARYANTO
    Any::Renderer::Pretty::Console
    Any::Renderer::Pretty::HTML
    App::HTMLCalendarMonth::Indonesia
@@ -40,6 +39,7 @@ TASK CONTENTS
    CPAN::Critic::Module::Abstract
    Calendar::Indonesia::Holiday
    Config::Ini::OnDrugs
+   Crypt::Password::Util
    Data::Clean::JSON
    Data::Dump::Ala::SHARYANTO
    Data::Dump::Color
@@ -63,10 +63,15 @@ TASK CONTENTS
    Devel::EndStats
    Dist::Zilla::Plugin::Extras
    Dist::Zilla::PluginBundle::SHARYANTO
+   File::Append::Undoable
+   File::Copy::Undoable
+   File::Move::Undoable
+   File::Prepend::Undoable
    File::RsyBak
    File::Slurp::Shortcuts
    File::Trash::FreeDesktop
    File::Trash::Undoable
+   File::Truncate::Undoable
    Finance::Bank::ID::BCA
    Finance::Bank::ID::BPRKS
    Finance::Bank::ID::Mandiri
@@ -97,6 +102,7 @@ TASK CONTENTS
    Log::Any::For::LWP
    Log::Dispatch::Dir
    Module::Patch
+   Monkey::Patch::Action
    Net::HTTP::Methods::Patch::LogRequest
    Object::BlankStr
    Object::NulStr
@@ -162,12 +168,13 @@ TASK CONTENTS
    Setup
    Setup::File
    Setup::File::Symlink
-   Setup::Text::Snippet
    Setup::Unix::User
    Syntax::Feature::EachOnArray
    Text::PrettyTable
    Text::sprintfn
    Tie::Diamond
+   UUID::Random::Patch::UseMRS
+   Unix::Passwd::File
    Unixish
    WWW::GudangAPI
 AUTHOR

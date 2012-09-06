@@ -27,7 +27,6 @@
       "runtime" : {
          "requires" : {
             "Acme::CPANAuthors::Indonesian" : 0,
-            "Alt::Monkey::Patch::SHARYANTO" : 0,
             "Any::Renderer::Pretty::Console" : 0,
             "Any::Renderer::Pretty::HTML" : 0,
             "App::HTMLCalendarMonth::Indonesia" : 0,
@@ -54,6 +53,7 @@
             "CPAN::Critic::Module::Abstract" : 0,
             "Calendar::Indonesia::Holiday" : 0,
             "Config::Ini::OnDrugs" : 0,
+            "Crypt::Password::Util" : 0,
             "Data::Clean::JSON" : 0,
             "Data::Dump::Ala::SHARYANTO" : 0,
             "Data::Dump::Color" : 0,
@@ -77,10 +77,15 @@
             "Devel::EndStats" : 0,
             "Dist::Zilla::Plugin::Extras" : 0,
             "Dist::Zilla::PluginBundle::SHARYANTO" : 0,
+            "File::Append::Undoable" : 0,
+            "File::Copy::Undoable" : 0,
+            "File::Move::Undoable" : 0,
+            "File::Prepend::Undoable" : 0,
             "File::RsyBak" : 0,
             "File::Slurp::Shortcuts" : 0,
             "File::Trash::FreeDesktop" : 0,
             "File::Trash::Undoable" : 0,
+            "File::Truncate::Undoable" : 0,
             "Finance::Bank::ID::BCA" : 0,
             "Finance::Bank::ID::BPRKS" : 0,
             "Finance::Bank::ID::Mandiri" : 0,
@@ -111,6 +116,7 @@
             "Log::Any::For::LWP" : 0,
             "Log::Dispatch::Dir" : 0,
             "Module::Patch" : 0,
+            "Monkey::Patch::Action" : 0,
             "Net::HTTP::Methods::Patch::LogRequest" : 0,
             "Object::BlankStr" : 0,
             "Object::NulStr" : 0,
@@ -176,12 +182,13 @@
             "Setup" : 0,
             "Setup::File" : 0,
             "Setup::File::Symlink" : 0,
-            "Setup::Text::Snippet" : 0,
             "Setup::Unix::User" : 0,
             "Syntax::Feature::EachOnArray" : 0,
             "Text::PrettyTable" : 0,
             "Text::sprintfn" : 0,
             "Tie::Diamond" : 0,
+            "UUID::Random::Patch::UseMRS" : 0,
+            "Unix::Passwd::File" : 0,
             "Unixish" : 0,
             "WWW::GudangAPI" : 0
          }
@@ -194,6 +201,6 @@
          "url" : "http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored"
       }
    },
-   "version" : "0.1"
+   "version" : "0.11"
 }
 
