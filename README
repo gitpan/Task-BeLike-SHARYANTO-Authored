@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.11
+    version 0.12
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -13,16 +13,24 @@ DESCRIPTION
 TASK CONTENTS
   Included modules
    Acme::CPANAuthors::Indonesian
+   Alt::Base
+   Alt::Log::Any::App::FWR
    Any::Renderer::Pretty::Console
    Any::Renderer::Pretty::HTML
    App::HTMLCalendarMonth::Indonesia
    App::HasPrereqs
    App::LintPrereqs
+   App::ListPrereqs
    App::OrgUtils
+   App::ParseCPANChanges
    App::SerializeUtils
    App::UniqFiles
+   App::cal::id
+   App::cpanlists
+   App::cpanlists::Server
    App::dux
    App::perlmv
+   App::smtpstatus
    Array::Find
    Array::Functions::Undoable
    Array::Iterator
@@ -32,13 +40,18 @@ TASK CONTENTS
    Business::BankCard::Indonesia
    Business::BankList
    Business::BankList::Indonesia
+   Business::ID::BCA
+   Business::ID::Mandiri
    Business::ID::NIK
    Business::ID::NOPPBB
    Business::ID::NPWP
    Business::ID::SIM
    CPAN::Critic::Module::Abstract
    Calendar::Indonesia::Holiday
-   Config::Ini::OnDrugs
+   Carp::Always::Dump
+   Carp::Always::SyntaxHighlightSource
+   Color::ANSI::Util
+   Config::IOD
    Crypt::Password::Util
    Data::Clean::JSON
    Data::Dump::Ala::SHARYANTO
@@ -60,18 +73,26 @@ TASK CONTENTS
    Data::Sah
    Data::Sah::Util
    Data::Unixish
+   Data::Unixish::ansi
+   DateTime::Format::Indonesian
+   DefHash
    Devel::EndStats
+   Dist::Create::TaskBeLikeFavorited
    Dist::Zilla::Plugin::Extras
+   Dist::Zilla::Plugin::Rinci::Validate
+   Dist::Zilla::Plugin::Test::Rinci
    Dist::Zilla::PluginBundle::SHARYANTO
    File::Append::Undoable
    File::Copy::Undoable
    File::Move::Undoable
+   File::Patch::Undoable
    File::Prepend::Undoable
    File::RsyBak
    File::Slurp::Shortcuts
    File::Trash::FreeDesktop
    File::Trash::Undoable
    File::Truncate::Undoable
+   File::Write::Rotate
    Finance::Bank::ID::BCA
    Finance::Bank::ID::BPRKS
    Finance::Bank::ID::Mandiri
@@ -80,8 +101,14 @@ TASK CONTENTS
    Git::Bunch
    HTTP::Daemon::Patch::IPv6
    HTTP::Daemon::UNIX
+   HTTP::Headers::Patch::DontUseStorable
+   HTTP::Tiny::Patch::LogAny
+   Hash::DefHash
+   IOD
+   JSON::Color
    LWP::Protocol::http::SocketUnixAlt
    LWP::UserAgent::Patch::HTTPSHardTimeout
+   LWP::UserAgent::Patch::LogRequestContent
    LWP::UserAgent::Patch::LogResponse
    Language::Expr
    Ledger::Parser
@@ -95,15 +122,22 @@ TASK CONTENTS
    Locale::ID::Locality
    Locale::ID::Province
    Log::Any::Adapter::Callback
+   Log::Any::Adapter::Core::Patch::SetDumperIndent
+   Log::Any::Adapter::Core::Patch::UseDataDump
+   Log::Any::Adapter::Core::Patch::UseDataDumperPerltidy
    Log::Any::Adapter::ScreenColoredLevel
    Log::Any::App
    Log::Any::For::Class
    Log::Any::For::DBI
+   Log::Any::For::HTTP::Tiny
    Log::Any::For::LWP
+   Log::Any::For::STDERR
    Log::Dispatch::Dir
+   Log::Dispatch::FileWriteRotate
    Module::Patch
    Monkey::Patch::Action
    Net::HTTP::Methods::Patch::LogRequest
+   Number::Closest::NonOO
    Object::BlankStr
    Object::NulStr
    Object::SpaceBackStr
@@ -129,6 +163,7 @@ TASK CONTENTS
    Perinci::CmdLine
    Perinci::Easy
    Perinci::Examples
+   Perinci::Examples::Bin
    Perinci::Exporter
    Perinci::Gen::ForModule
    Perinci::Object
@@ -136,6 +171,8 @@ TASK CONTENTS
    Perinci::Sub::ConvertArgs::Array
    Perinci::Sub::Dep::pm
    Perinci::Sub::DepChecker
+   Perinci::Sub::DepUtil
+   Perinci::Sub::FeatureUtil
    Perinci::Sub::Gen
    Perinci::Sub::Gen::AccessTable
    Perinci::Sub::Gen::AccessTable::DBI
@@ -147,6 +184,10 @@ TASK CONTENTS
    Perinci::Sub::Property::result_postfilter
    Perinci::Sub::Property::retry
    Perinci::Sub::Property::timeout
+   Perinci::Sub::PropertyUtil
+   Perinci::Sub::To::POD
+   Perinci::Sub::To::ReForm
+   Perinci::Sub::To::Text
    Perinci::Sub::Wrapper
    Perinci::To::HTML
    Perinci::To::POD
@@ -155,12 +196,26 @@ TASK CONTENTS
    Perinci::Use
    Perinci::Util
    Perinci::Web
+   Perl::Stripper
+   Pod::Weaver::Plugin::Eval
    Pod::Weaver::Plugin::Perinci
+   Pod::Weaver::PluginBundle::SHARYANTO
    Pod::Weaver::Section::Changes
+   Process::Govern
    Process::KillTree
+   Progress::Any
+   Progress::Any::Output
+   Progress::Any::Output::Callback
+   Progress::Any::Output::LogAny
+   Progress::Any::Output::TermMessage
+   Progress::Any::Output::TermProgressBar
+   Progress::Any::Output::TermProgressBarColor
    RSS::From::Forum::vBulletin
    Riap
    Rinci
+   Rinci::Schema
+   SHARYANTO
+   SHARYANTO::SQL::Schema
    SHARYANTO::String::Util
    SHARYANTO::Utils
    Sah
@@ -168,20 +223,40 @@ TASK CONTENTS
    Setup
    Setup::File
    Setup::File::Symlink
+   Setup::File::TextFragment
    Setup::Unix::User
+   Software::Catalog
+   Software::Release::Watch
+   Software::Release::Watch::sw::wordpress
    Syntax::Feature::EachOnArray
-   Text::PrettyTable
+   SyntaxHighlight::Any
+   Term::Detect
+   Term::ProgressBar::Color
+   Test::Rinci
+   Test::Sah
+   Text::ANSI::Util
+   Text::ANSITable
+   Text::ANSITable::BorderStyle::Extra
+   Text::ANSITable::ColorTheme::Extra
+   Text::Fragment
+   Text::WideChar::Util
    Text::sprintfn
    Tie::Diamond
+   Tie::Handle::FileWriteRotate
+   Time::Duration::Patch::Millisecond
+   Time::Duration::id
    UUID::Random::Patch::UseMRS
    Unix::Passwd::File
    Unixish
    WWW::GudangAPI
+   Web::Detect
+   YAML::Tiny::Color
+   tainting
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2012 by Steven Haryanto.
+    This software is copyright (c) 2013 by Steven Haryanto.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
