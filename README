@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.12
+    version 0.13
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -30,6 +30,7 @@ TASK CONTENTS
    App::cpanlists::Server
    App::dux
    App::perlmv
+   App::riap
    App::smtpstatus
    Array::Find
    Array::Functions::Undoable
@@ -156,7 +157,7 @@ TASK CONTENTS
    Perinci::Access::Base
    Perinci::Access::HTTP::Client
    Perinci::Access::HTTP::Server
-   Perinci::Access::InProcess
+   Perinci::Access::Perl
    Perinci::Access::Simple::Client
    Perinci::Access::Simple::Server
    Perinci::BashComplete
@@ -189,6 +190,7 @@ TASK CONTENTS
    Perinci::Sub::To::ReForm
    Perinci::Sub::To::Text
    Perinci::Sub::Wrapper
+   Perinci::Sub::Wrapper::Patch::HandlePHPArray
    Perinci::To::HTML
    Perinci::To::POD
    Perinci::To::Text
@@ -208,7 +210,6 @@ TASK CONTENTS
    Progress::Any::Output::Callback
    Progress::Any::Output::LogAny
    Progress::Any::Output::TermMessage
-   Progress::Any::Output::TermProgressBar
    Progress::Any::Output::TermProgressBarColor
    RSS::From::Forum::vBulletin
    Riap

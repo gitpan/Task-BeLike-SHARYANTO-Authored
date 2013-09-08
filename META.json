@@ -49,6 +49,7 @@
             "App::cpanlists::Server" : "0",
             "App::dux" : "0",
             "App::perlmv" : "0",
+            "App::riap" : "0",
             "App::smtpstatus" : "0",
             "Array::Find" : "0",
             "Array::Functions::Undoable" : "0",
@@ -175,7 +176,7 @@
             "Perinci::Access::Base" : "0",
             "Perinci::Access::HTTP::Client" : "0",
             "Perinci::Access::HTTP::Server" : "0",
-            "Perinci::Access::InProcess" : "0",
+            "Perinci::Access::Perl" : "0",
             "Perinci::Access::Simple::Client" : "0",
             "Perinci::Access::Simple::Server" : "0",
             "Perinci::BashComplete" : "0",
@@ -208,6 +209,7 @@
             "Perinci::Sub::To::ReForm" : "0",
             "Perinci::Sub::To::Text" : "0",
             "Perinci::Sub::Wrapper" : "0",
+            "Perinci::Sub::Wrapper::Patch::HandlePHPArray" : "0",
             "Perinci::To::HTML" : "0",
             "Perinci::To::POD" : "0",
             "Perinci::To::Text" : "0",
@@ -227,7 +229,6 @@
             "Progress::Any::Output::Callback" : "0",
             "Progress::Any::Output::LogAny" : "0",
             "Progress::Any::Output::TermMessage" : "0",
-            "Progress::Any::Output::TermProgressBar" : "0",
             "Progress::Any::Output::TermProgressBarColor" : "0",
             "RSS::From::Forum::vBulletin" : "0",
             "Riap" : "0",
@@ -288,6 +289,6 @@
          "url" : "http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored"
       }
    },
-   "version" : "0.12"
+   "version" : "0.13"
 }
 
