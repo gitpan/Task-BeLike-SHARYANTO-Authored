@@ -2,32 +2,27 @@
 use strict;
 use warnings;
 
-use Module::Build 0.3601;
 
 
-my %module_build_args = (
-  "build_requires" => {
-    "Module::Build" => "0.3601"
+use ExtUtils::MakeMaker 6.30;
+
+
+
+my %WriteMakefileArgs = (
+  "ABSTRACT" => "Install all modules authored by SHARYANTO on CPAN",
+  "AUTHOR" => "Steven Haryanto <stevenharyanto\@gmail.com>",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  "configure_requires" => {
-    "Module::Build" => "0.3601"
-  },
-  "dist_abstract" => "Install all modules authored by SHARYANTO on CPAN",
-  "dist_author" => [
-    "Steven Haryanto <stevenharyanto\@gmail.com>"
-  ],
-  "dist_name" => "Task-BeLike-SHARYANTO-Authored",
-  "dist_version" => "0.13",
-  "license" => "perl",
-  "module_name" => "Task::BeLike::SHARYANTO::Authored",
-  "recommends" => {},
-  "recursive_test_files" => 1,
-  "requires" => {
+  "DISTNAME" => "Task-BeLike-SHARYANTO-Authored",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Task::BeLike::SHARYANTO::Authored",
+  "PREREQ_PM" => {
     "Acme::CPANAuthors::Indonesian" => 0,
     "Alt::Base" => 0,
     "Alt::Log::Any::App::FWR" => 0,
-    "Any::Renderer::Pretty::Console" => 0,
-    "Any::Renderer::Pretty::HTML" => 0,
     "App::HTMLCalendarMonth::Indonesia" => 0,
     "App::HasPrereqs" => 0,
     "App::LintPrereqs" => 0,
@@ -44,7 +39,6 @@ my %module_build_args = (
     "App::riap" => 0,
     "App::smtpstatus" => 0,
     "Array::Find" => 0,
-    "Array::Functions::Undoable" => 0,
     "Array::Iterator" => 0,
     "Bench" => 0,
     "Builtin::Logged" => 0,
@@ -83,7 +77,6 @@ my %module_build_args = (
     "Data::Format::Pretty::YAML" => 0,
     "Data::ModeMerge" => 0,
     "Data::Sah" => 0,
-    "Data::Sah::Util" => 0,
     "Data::Unixish" => 0,
     "Data::Unixish::ansi" => 0,
     "DateTime::Format::Indonesian" => 0,
@@ -162,7 +155,6 @@ my %module_build_args = (
     "Parse::Number::ID" => 0,
     "Parse::PhoneNumber::ID" => 0,
     "Parse::VarName" => 0,
-    "Passwd::Unix::Alt" => 0,
     "Perinci" => 0,
     "Perinci::Access" => 0,
     "Perinci::Access::Base" => 0,
@@ -265,18 +257,17 @@ my %module_build_args = (
     "YAML::Tiny::Color" => 0,
     "tainting" => 0
   },
-  "script_files" => [],
-  "test_requires" => {
-    "Capture::Tiny" => 0,
-    "Test::More" => "0.88",
-    "blib" => 0
+  "TEST_REQUIRES" => {},
+  "VERSION" => "0.14",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
 
-unless ( eval { Module::Build->VERSION(0.4004) } ) {
-  my $tr = delete $module_build_args{test_requires};
-  my $br = $module_build_args{build_requires};
+unless ( eval { ExtUtils::MakeMaker->VERSION(6.63_03) } ) {
+  my $tr = delete $WriteMakefileArgs{TEST_REQUIRES};
+  my $br = $WriteMakefileArgs{BUILD_REQUIRES};
   for my $mod ( keys %$tr ) {
     if ( exists $br->{$mod} ) {
       $br->{$mod} = $tr->{$mod} if $tr->{$mod} > $br->{$mod};
@@ -287,6 +278,23 @@ unless ( eval { Module::Build->VERSION(0.4004) } ) {
   }
 }
 
-my $build = Module::Build->new(%module_build_args);
+unless ( eval { ExtUtils::MakeMaker->VERSION(6.56) } ) {
+  my $br = delete $WriteMakefileArgs{BUILD_REQUIRES};
+  my $pp = $WriteMakefileArgs{PREREQ_PM};
+  for my $mod ( keys %$br ) {
+    if ( exists $pp->{$mod} ) {
+      $pp->{$mod} = $br->{$mod} if $br->{$mod} > $pp->{$mod};
+    }
+    else {
+      $pp->{$mod} = $br->{$mod};
+    }
+  }
+}
 
-$build->create_build_script;
+delete $WriteMakefileArgs{CONFIGURE_REQUIRES}
+  unless eval { ExtUtils::MakeMaker->VERSION(6.52) };
+
+WriteMakefile(%WriteMakefileArgs);
+
+
+

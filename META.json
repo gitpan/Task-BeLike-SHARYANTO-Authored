@@ -4,7 +4,7 @@
       "Steven Haryanto <stevenharyanto@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.132140",
+   "generated_by" : "Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.131560",
    "license" : [
       "perl_5"
    ],
@@ -14,14 +14,9 @@
    },
    "name" : "Task-BeLike-SHARYANTO-Authored",
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Module::Build" : "0.3601"
-         }
-      },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.3601"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "develop" : {
@@ -34,8 +29,6 @@
             "Acme::CPANAuthors::Indonesian" : "0",
             "Alt::Base" : "0",
             "Alt::Log::Any::App::FWR" : "0",
-            "Any::Renderer::Pretty::Console" : "0",
-            "Any::Renderer::Pretty::HTML" : "0",
             "App::HTMLCalendarMonth::Indonesia" : "0",
             "App::HasPrereqs" : "0",
             "App::LintPrereqs" : "0",
@@ -52,7 +45,6 @@
             "App::riap" : "0",
             "App::smtpstatus" : "0",
             "Array::Find" : "0",
-            "Array::Functions::Undoable" : "0",
             "Array::Iterator" : "0",
             "Bench" : "0",
             "Builtin::Logged" : "0",
@@ -91,7 +83,6 @@
             "Data::Format::Pretty::YAML" : "0",
             "Data::ModeMerge" : "0",
             "Data::Sah" : "0",
-            "Data::Sah::Util" : "0",
             "Data::Unixish" : "0",
             "Data::Unixish::ansi" : "0",
             "DateTime::Format::Indonesian" : "0",
@@ -170,7 +161,6 @@
             "Parse::Number::ID" : "0",
             "Parse::PhoneNumber::ID" : "0",
             "Parse::VarName" : "0",
-            "Passwd::Unix::Alt" : "0",
             "Perinci" : "0",
             "Perinci::Access" : "0",
             "Perinci::Access::Base" : "0",
@@ -273,13 +263,6 @@
             "YAML::Tiny::Color" : "0",
             "tainting" : "0"
          }
-      },
-      "test" : {
-         "requires" : {
-            "Capture::Tiny" : "0",
-            "Test::More" : "0.88",
-            "blib" : "0"
-         }
       }
    },
    "release_status" : "stable",
@@ -289,6 +272,6 @@
          "url" : "http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored"
       }
    },
-   "version" : "0.13"
+   "version" : "0.14"
 }
 

@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.13
+    version 0.14
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -15,8 +15,6 @@ TASK CONTENTS
    Acme::CPANAuthors::Indonesian
    Alt::Base
    Alt::Log::Any::App::FWR
-   Any::Renderer::Pretty::Console
-   Any::Renderer::Pretty::HTML
    App::HTMLCalendarMonth::Indonesia
    App::HasPrereqs
    App::LintPrereqs
@@ -33,7 +31,6 @@ TASK CONTENTS
    App::riap
    App::smtpstatus
    Array::Find
-   Array::Functions::Undoable
    Array::Iterator
    Bench
    Builtin::Logged
@@ -72,7 +69,6 @@ TASK CONTENTS
    Data::Format::Pretty::YAML
    Data::ModeMerge
    Data::Sah
-   Data::Sah::Util
    Data::Unixish
    Data::Unixish::ansi
    DateTime::Format::Indonesian
@@ -151,7 +147,6 @@ TASK CONTENTS
    Parse::Number::ID
    Parse::PhoneNumber::ID
    Parse::VarName
-   Passwd::Unix::Alt
    Perinci
    Perinci::Access
    Perinci::Access::Base
