@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.15
+    version 0.16
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -25,8 +25,6 @@ TASK CONTENTS
    App::SerializeUtils
    App::UniqFiles
    App::cal::id
-   App::cpanlists
-   App::cpanlists::Server
    App::dux
    App::osnames
    App::perlmv
@@ -34,6 +32,7 @@ TASK CONTENTS
    Array::Find
    Array::Iterator
    Bench
+   Borang
    Builtin::Logged
    Business::BankCard
    Business::BankCard::Indonesia
@@ -50,7 +49,6 @@ TASK CONTENTS
    Carp::Always::Dump
    Carp::Always::SyntaxHighlightSource
    Color::ANSI::Util
-   Config::IOD
    Crypt::Password::Util
    Data::Clean::JSON
    Data::Dump::Ala::SHARYANTO
@@ -186,7 +184,6 @@ TASK CONTENTS
    Perinci::Sub::Property::timeout
    Perinci::Sub::PropertyUtil
    Perinci::Sub::To::POD
-   Perinci::Sub::To::ReForm
    Perinci::Sub::To::Text
    Perinci::Sub::Wrapper
    Perinci::Sub::Wrapper::Patch::HandlePHPArray
@@ -235,7 +232,7 @@ TASK CONTENTS
    Setup::Unix::User
    Software::Catalog
    Software::Release::Watch
-   Software::Release::Watch::sw::wordpress
+   Software::Release::Watch::SW::wordpress
    Syntax::Feature::EachOnArray
    SyntaxHighlight::Any
    Term::Detect::Software

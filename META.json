@@ -39,8 +39,6 @@
             "App::SerializeUtils" : "0",
             "App::UniqFiles" : "0",
             "App::cal::id" : "0",
-            "App::cpanlists" : "0",
-            "App::cpanlists::Server" : "0",
             "App::dux" : "0",
             "App::osnames" : "0",
             "App::perlmv" : "0",
@@ -48,6 +46,7 @@
             "Array::Find" : "0",
             "Array::Iterator" : "0",
             "Bench" : "0",
+            "Borang" : "0",
             "Builtin::Logged" : "0",
             "Business::BankCard" : "0",
             "Business::BankCard::Indonesia" : "0",
@@ -64,7 +63,6 @@
             "Carp::Always::Dump" : "0",
             "Carp::Always::SyntaxHighlightSource" : "0",
             "Color::ANSI::Util" : "0",
-            "Config::IOD" : "0",
             "Crypt::Password::Util" : "0",
             "Data::Clean::JSON" : "0",
             "Data::Dump::Ala::SHARYANTO" : "0",
@@ -200,7 +198,6 @@
             "Perinci::Sub::Property::timeout" : "0",
             "Perinci::Sub::PropertyUtil" : "0",
             "Perinci::Sub::To::POD" : "0",
-            "Perinci::Sub::To::ReForm" : "0",
             "Perinci::Sub::To::Text" : "0",
             "Perinci::Sub::Wrapper" : "0",
             "Perinci::Sub::Wrapper::Patch::HandlePHPArray" : "0",
@@ -249,7 +246,7 @@
             "Setup::Unix::User" : "0",
             "Software::Catalog" : "0",
             "Software::Release::Watch" : "0",
-            "Software::Release::Watch::sw::wordpress" : "0",
+            "Software::Release::Watch::SW::wordpress" : "0",
             "Syntax::Feature::EachOnArray" : "0",
             "SyntaxHighlight::Any" : "0",
             "Term::Detect::Software" : "0",
@@ -292,6 +289,6 @@
          "url" : "http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored"
       }
    },
-   "version" : "0.15"
+   "version" : "0.16"
 }
 
