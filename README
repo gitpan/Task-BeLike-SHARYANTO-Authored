@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.14
+    version 0.15
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -19,6 +19,7 @@ TASK CONTENTS
    App::HasPrereqs
    App::LintPrereqs
    App::ListPrereqs
+   App::ListRevDeps
    App::OrgUtils
    App::ParseCPANChanges
    App::SerializeUtils
@@ -27,8 +28,8 @@ TASK CONTENTS
    App::cpanlists
    App::cpanlists::Server
    App::dux
+   App::osnames
    App::perlmv
-   App::riap
    App::smtpstatus
    Array::Find
    Array::Iterator
@@ -94,6 +95,7 @@ TASK CONTENTS
    Finance::Bank::ID::BPRKS
    Finance::Bank::ID::Mandiri
    Finance::Currency::Convert::KlikBCA
+   Gen::Test::Rinci::FuncResult
    Gepok
    Git::Bunch
    HTTP::Daemon::Patch::IPv6
@@ -123,7 +125,6 @@ TASK CONTENTS
    Log::Any::Adapter::Core::Patch::UseDataDump
    Log::Any::Adapter::Core::Patch::UseDataDumperPerltidy
    Log::Any::Adapter::ScreenColoredLevel
-   Log::Any::App
    Log::Any::For::Class
    Log::Any::For::DBI
    Log::Any::For::HTTP::Tiny
@@ -131,6 +132,8 @@ TASK CONTENTS
    Log::Any::For::STDERR
    Log::Dispatch::Dir
    Log::Dispatch::FileWriteRotate
+   Media::Info
+   Media::Info::Mplayer
    Module::Patch
    Monkey::Patch::Action
    Net::HTTP::Methods::Patch::LogRequest
@@ -164,6 +167,7 @@ TASK CONTENTS
    Perinci::Gen::ForModule
    Perinci::Object
    Perinci::Result::Format
+   Perinci::Sub::ConvertArgs::Argv
    Perinci::Sub::ConvertArgs::Array
    Perinci::Sub::Dep::pm
    Perinci::Sub::DepChecker
@@ -207,13 +211,21 @@ TASK CONTENTS
    Progress::Any::Output::TermMessage
    Progress::Any::Output::TermProgressBarColor
    RSS::From::Forum::vBulletin
+   RSS::From::Twitter
    Riap
    Rinci
    Rinci::Schema
    SHARYANTO
+   SHARYANTO::Color::Util
+   SHARYANTO::Data::Util
+   SHARYANTO::File::Util
+   SHARYANTO::Number::Util
+   SHARYANTO::Package::Util
+   SHARYANTO::Proc::Util
    SHARYANTO::SQL::Schema
    SHARYANTO::String::Util
    SHARYANTO::Utils
+   SHARYANTO::YAML::Any
    Sah
    Serabi
    Setup
@@ -226,7 +238,7 @@ TASK CONTENTS
    Software::Release::Watch::sw::wordpress
    Syntax::Feature::EachOnArray
    SyntaxHighlight::Any
-   Term::Detect
+   Term::Detect::Software
    Term::ProgressBar::Color
    Test::Rinci
    Test::Sah
@@ -248,6 +260,7 @@ TASK CONTENTS
    Web::Detect
    YAML::Tiny::Color
    tainting
+   version::Restrict
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 

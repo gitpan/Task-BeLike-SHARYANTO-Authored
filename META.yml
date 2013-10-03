@@ -2,11 +2,14 @@
 abstract: 'Install all modules authored by SHARYANTO on CPAN'
 author:
   - 'Steven Haryanto <stevenharyanto@gmail.com>'
-build_requires: {}
+build_requires:
+  IO::Handle: 0
+  IPC::Open3: 0
+  Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.131560'
+generated_by: 'Dist::Zilla version 4.300038, CPAN::Meta::Converter version 2.132510'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,6 +23,7 @@ requires:
   App::HasPrereqs: 0
   App::LintPrereqs: 0
   App::ListPrereqs: 0
+  App::ListRevDeps: 0
   App::OrgUtils: 0
   App::ParseCPANChanges: 0
   App::SerializeUtils: 0
@@ -28,8 +32,8 @@ requires:
   App::cpanlists: 0
   App::cpanlists::Server: 0
   App::dux: 0
+  App::osnames: 0
   App::perlmv: 0
-  App::riap: 0
   App::smtpstatus: 0
   Array::Find: 0
   Array::Iterator: 0
@@ -95,6 +99,7 @@ requires:
   Finance::Bank::ID::BPRKS: 0
   Finance::Bank::ID::Mandiri: 0
   Finance::Currency::Convert::KlikBCA: 0
+  Gen::Test::Rinci::FuncResult: 0
   Gepok: 0
   Git::Bunch: 0
   HTTP::Daemon::Patch::IPv6: 0
@@ -124,7 +129,6 @@ requires:
   Log::Any::Adapter::Core::Patch::UseDataDump: 0
   Log::Any::Adapter::Core::Patch::UseDataDumperPerltidy: 0
   Log::Any::Adapter::ScreenColoredLevel: 0
-  Log::Any::App: 0
   Log::Any::For::Class: 0
   Log::Any::For::DBI: 0
   Log::Any::For::HTTP::Tiny: 0
@@ -132,6 +136,8 @@ requires:
   Log::Any::For::STDERR: 0
   Log::Dispatch::Dir: 0
   Log::Dispatch::FileWriteRotate: 0
+  Media::Info: 0
+  Media::Info::Mplayer: 0
   Module::Patch: 0
   Monkey::Patch::Action: 0
   Net::HTTP::Methods::Patch::LogRequest: 0
@@ -165,6 +171,7 @@ requires:
   Perinci::Gen::ForModule: 0
   Perinci::Object: 0
   Perinci::Result::Format: 0
+  Perinci::Sub::ConvertArgs::Argv: 0
   Perinci::Sub::ConvertArgs::Array: 0
   Perinci::Sub::Dep::pm: 0
   Perinci::Sub::DepChecker: 0
@@ -208,13 +215,21 @@ requires:
   Progress::Any::Output::TermMessage: 0
   Progress::Any::Output::TermProgressBarColor: 0
   RSS::From::Forum::vBulletin: 0
+  RSS::From::Twitter: 0
   Riap: 0
   Rinci: 0
   Rinci::Schema: 0
   SHARYANTO: 0
+  SHARYANTO::Color::Util: 0
+  SHARYANTO::Data::Util: 0
+  SHARYANTO::File::Util: 0
+  SHARYANTO::Number::Util: 0
+  SHARYANTO::Package::Util: 0
+  SHARYANTO::Proc::Util: 0
   SHARYANTO::SQL::Schema: 0
   SHARYANTO::String::Util: 0
   SHARYANTO::Utils: 0
+  SHARYANTO::YAML::Any: 0
   Sah: 0
   Serabi: 0
   Setup: 0
@@ -227,7 +242,7 @@ requires:
   Software::Release::Watch::sw::wordpress: 0
   Syntax::Feature::EachOnArray: 0
   SyntaxHighlight::Any: 0
-  Term::Detect: 0
+  Term::Detect::Software: 0
   Term::ProgressBar::Color: 0
   Test::Rinci: 0
   Test::Sah: 0
@@ -249,7 +264,8 @@ requires:
   Web::Detect: 0
   YAML::Tiny::Color: 0
   tainting: 0
+  version::Restrict: 0
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Authored/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored
-version: 0.14
+version: 0.15
