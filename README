@@ -3,7 +3,7 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.17
+    version 0.18
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
@@ -236,21 +236,6 @@ TASK CONTENTS
    Software::Release::Watch::SW::wordpress
    Syntax::Feature::EachOnArray
    SyntaxHighlight::Any
-   Task::BeLike::SHARYANTO::Apps
-   Task::BeLike::SHARYANTO::Authored
-   Task::BeLike::SHARYANTO::AutomatedUpdate
-   Task::BeLike::SHARYANTO::Devel
-   Task::BeLike::SHARYANTO::Favorited
-   Task::BeLike::SHARYANTO::Noted
-   Task::BeLike::SHARYANTO::Patches
-   Task::BeLike::SHARYANTO::Spec
-   Task::Data::Format::Pretty
-   Task::Data::Sah
-   Task::Data::Unixish
-   Task::GudangData::User
-   Task::Perinci
-   Task::Setup
-   Task::Tx::Function
    Term::Detect::Software
    Term::ProgressBar::Color
    Test::Rinci

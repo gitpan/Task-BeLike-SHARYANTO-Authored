@@ -241,21 +241,6 @@ requires:
   Software::Release::Watch::SW::wordpress: 0
   Syntax::Feature::EachOnArray: 0
   SyntaxHighlight::Any: 0
-  Task::BeLike::SHARYANTO::Apps: 0
-  Task::BeLike::SHARYANTO::Authored: 0
-  Task::BeLike::SHARYANTO::AutomatedUpdate: 0
-  Task::BeLike::SHARYANTO::Devel: 0
-  Task::BeLike::SHARYANTO::Favorited: 0
-  Task::BeLike::SHARYANTO::Noted: 0
-  Task::BeLike::SHARYANTO::Patches: 0
-  Task::BeLike::SHARYANTO::Spec: 0
-  Task::Data::Format::Pretty: 0
-  Task::Data::Sah: 0
-  Task::Data::Unixish: 0
-  Task::GudangData::User: 0
-  Task::Perinci: 0
-  Task::Setup: 0
-  Task::Tx::Function: 0
   Term::Detect::Software: 0
   Term::ProgressBar::Color: 0
   Test::Rinci: 0
@@ -282,4 +267,4 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Authored/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored
-version: 0.17
+version: 0.18
