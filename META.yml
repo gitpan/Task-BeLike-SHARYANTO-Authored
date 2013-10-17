@@ -3,13 +3,14 @@ abstract: 'Install all modules authored by SHARYANTO on CPAN'
 author:
   - 'Steven Haryanto <stevenharyanto@gmail.com>'
 build_requires:
+  File::Spec: 0
   IO::Handle: 0
   IPC::Open3: 0
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300038, CPAN::Meta::Converter version 2.132510'
+generated_by: 'Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.132140'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -223,6 +224,7 @@ requires:
   SHARYANTO::Number::Util: 0
   SHARYANTO::Package::Util: 0
   SHARYANTO::Proc::Util: 0
+  SHARYANTO::Roles: 0
   SHARYANTO::SQL::Schema: 0
   SHARYANTO::String::Util: 0
   SHARYANTO::Utils: 0
@@ -239,6 +241,21 @@ requires:
   Software::Release::Watch::SW::wordpress: 0
   Syntax::Feature::EachOnArray: 0
   SyntaxHighlight::Any: 0
+  Task::BeLike::SHARYANTO::Apps: 0
+  Task::BeLike::SHARYANTO::Authored: 0
+  Task::BeLike::SHARYANTO::AutomatedUpdate: 0
+  Task::BeLike::SHARYANTO::Devel: 0
+  Task::BeLike::SHARYANTO::Favorited: 0
+  Task::BeLike::SHARYANTO::Noted: 0
+  Task::BeLike::SHARYANTO::Patches: 0
+  Task::BeLike::SHARYANTO::Spec: 0
+  Task::Data::Format::Pretty: 0
+  Task::Data::Sah: 0
+  Task::Data::Unixish: 0
+  Task::GudangData::User: 0
+  Task::Perinci: 0
+  Task::Setup: 0
+  Task::Tx::Function: 0
   Term::Detect::Software: 0
   Term::ProgressBar::Color: 0
   Test::Rinci: 0
@@ -265,4 +282,4 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Authored/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored
-version: 0.16
+version: 0.17
