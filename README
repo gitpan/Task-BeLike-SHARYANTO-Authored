@@ -3,12 +3,15 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.18
+    version 0.19
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
     CPAN. Excluded are other Task::* modules, or modules already deletd from
     CPAN.
+
+FUNCTIONS
+    None are exported by default, but they are exportable.
 
 TASK CONTENTS
   Included modules
@@ -26,8 +29,10 @@ TASK CONTENTS
    App::UniqFiles
    App::cal::id
    App::dux
+   App::norepeat
    App::osnames
    App::perlmv
+   App::riap
    App::smtpstatus
    Array::Find
    Array::Iterator
@@ -51,6 +56,7 @@ TASK CONTENTS
    Color::ANSI::Util
    Crypt::Password::Util
    Data::Clean::JSON
+   Data::Clean::ToStringyNumber
    Data::Dump::Ala::SHARYANTO
    Data::Dump::Color
    Data::Dump::OneLine
@@ -74,10 +80,12 @@ TASK CONTENTS
    DefHash
    Devel::EndStats
    Dist::Create::TaskBeLikeFavorited
+   Dist::Zilla::Plugin::Author::SHARYANTO::MetaResources
+   Dist::Zilla::Plugin::ConvertYAMLChanges
    Dist::Zilla::Plugin::Extras
    Dist::Zilla::Plugin::Rinci::Validate
    Dist::Zilla::Plugin::Test::Rinci
-   Dist::Zilla::PluginBundle::SHARYANTO
+   Dist::Zilla::PluginBundle::Author::SHARYANTO
    File::Append::Undoable
    File::Copy::Undoable
    File::Move::Undoable
@@ -103,10 +111,12 @@ TASK CONTENTS
    Hash::DefHash
    IOD
    JSON::Color
+   JSON::Decode::Regexp
    LWP::Protocol::http::SocketUnixAlt
    LWP::UserAgent::Patch::HTTPSHardTimeout
    LWP::UserAgent::Patch::LogRequestContent
    LWP::UserAgent::Patch::LogResponse
+   LWP::UserAgent::Patch::Retry
    Language::Expr
    Ledger::Parser
    Lingua::EN::Number::Format::MixWithWords
@@ -148,6 +158,7 @@ TASK CONTENTS
    Parse::Number::ID
    Parse::PhoneNumber::ID
    Parse::VarName
+   Path::Naive
    Perinci
    Perinci::Access
    Perinci::Access::Base
@@ -156,7 +167,6 @@ TASK CONTENTS
    Perinci::Access::Perl
    Perinci::Access::Simple::Client
    Perinci::Access::Simple::Server
-   Perinci::BashComplete
    Perinci::CmdLine
    Perinci::Easy
    Perinci::Examples
@@ -165,6 +175,7 @@ TASK CONTENTS
    Perinci::Gen::ForModule
    Perinci::Object
    Perinci::Result::Format
+   Perinci::Sub::Complete
    Perinci::Sub::ConvertArgs::Argv
    Perinci::Sub::ConvertArgs::Array
    Perinci::Sub::Dep::pm
@@ -197,8 +208,11 @@ TASK CONTENTS
    Perl::Stripper
    Pod::Weaver::Plugin::Eval
    Pod::Weaver::Plugin::Perinci
-   Pod::Weaver::PluginBundle::SHARYANTO
+   Pod::Weaver::PluginBundle::Author::SHARYANTO
+   Pod::Weaver::Section::Bugs::DefaultRT
    Pod::Weaver::Section::Changes
+   Pod::Weaver::Section::Homepage::DefaultCPAN
+   Pod::Weaver::Section::Source::DefaultGitHub
    Process::Govern
    Process::KillTree
    Progress::Any
@@ -214,6 +228,7 @@ TASK CONTENTS
    Rinci::Schema
    SHARYANTO
    SHARYANTO::Color::Util
+   SHARYANTO::Complete::Util
    SHARYANTO::Data::Util
    SHARYANTO::File::Util
    SHARYANTO::Number::Util
@@ -223,7 +238,6 @@ TASK CONTENTS
    SHARYANTO::SQL::Schema
    SHARYANTO::String::Util
    SHARYANTO::Utils
-   SHARYANTO::YAML::Any
    Sah
    Serabi
    Setup
@@ -259,6 +273,22 @@ TASK CONTENTS
    YAML::Tiny::Color
    tainting
    version::Restrict
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Task-BeLike-SHARYANTO-Authored>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    "/rt.cpan.org/Public/Dist/Display.html?Name=Task-BeLike-SHARYANTO-A
+    uthored" in https:
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 
