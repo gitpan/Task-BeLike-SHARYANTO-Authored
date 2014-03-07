@@ -282,15 +282,11 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Task-BeLike-SHARYANTO-Authored
   homepage: https://metacpan.org/release/Task-BeLike-SHARYANTO-Authored
   repository: git://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored.git
-version: '0.2'
+version: '0.20'
 x_Dist_Zilla:
   perl:
     version: '5.018002'
   plugins:
-    -
-      class: Dist::Zilla::Plugin::MetaResources
-      name: MetaResources
-      version: '5.013'
     -
       class: Dist::Zilla::Plugin::GatherDir
       name: '@Author::SHARYANTO::Task/@Filter/@Filter/GatherDir'

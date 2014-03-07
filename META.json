@@ -310,17 +310,12 @@
          "web" : "https://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored"
       }
    },
-   "version" : "0.2",
+   "version" : "0.20",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.018002"
       },
       "plugins" : [
-         {
-            "class" : "Dist::Zilla::Plugin::MetaResources",
-            "name" : "MetaResources",
-            "version" : "5.013"
-         },
          {
             "class" : "Dist::Zilla::Plugin::GatherDir",
             "name" : "@Author::SHARYANTO::Task/@Filter/@Filter/GatherDir",
