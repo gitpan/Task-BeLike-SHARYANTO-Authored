@@ -4,7 +4,7 @@
       "Steven Haryanto <stevenharyanto@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300038, CPAN::Meta::Converter version 2.132510",
+   "generated_by" : "Dist::Zilla version 5.013, CPAN::Meta::Converter version 2.133380",
    "license" : [
       "perl_5"
    ],
@@ -29,6 +29,7 @@
             "Acme::CPANAuthors::Indonesian" : "0",
             "Alt::Base" : "0",
             "Alt::Log::Any::App::FWR" : "0",
+            "App::ExecIf" : "0",
             "App::HTMLCalendarMonth::Indonesia" : "0",
             "App::HasPrereqs" : "0",
             "App::LintPrereqs" : "0",
@@ -40,9 +41,11 @@
             "App::UniqFiles" : "0",
             "App::cal::id" : "0",
             "App::dux" : "0",
+            "App::jpath" : "0",
             "App::norepeat" : "0",
             "App::osnames" : "0",
             "App::perlmv" : "0",
+            "App::pretty" : "0",
             "App::riap" : "0",
             "App::smtpstatus" : "0",
             "Array::Find" : "0",
@@ -95,6 +98,7 @@
             "Dist::Zilla::Plugin::ConvertYAMLChanges" : "0",
             "Dist::Zilla::Plugin::Extras" : "0",
             "Dist::Zilla::Plugin::Rinci::Validate" : "0",
+            "Dist::Zilla::Plugin::Rinci::Wrap" : "0",
             "Dist::Zilla::Plugin::Test::Rinci" : "0",
             "Dist::Zilla::PluginBundle::Author::SHARYANTO" : "0",
             "File::Append::Undoable" : "0",
@@ -139,6 +143,7 @@
             "Locale::ID::GuessGender::FromFirstName" : "0",
             "Locale::ID::Locality" : "0",
             "Locale::ID::Province" : "0",
+            "Locale::TextDomain::UTF8" : "0",
             "Log::Any::Adapter::Callback" : "0",
             "Log::Any::Adapter::Core::Patch::SetDumperIndent" : "0",
             "Log::Any::Adapter::Core::Patch::UseDataDump" : "0",
@@ -164,6 +169,7 @@
             "Org::To::HTML" : "0",
             "Org::To::Pod" : "0",
             "Org::To::Text" : "0",
+            "Org::To::VCF" : "0",
             "Parse::Netstat" : "0",
             "Parse::Number::EN" : "0",
             "Parse::Number::ID" : "0",
@@ -205,13 +211,10 @@
             "Perinci::Sub::Property::retry" : "0",
             "Perinci::Sub::Property::timeout" : "0",
             "Perinci::Sub::PropertyUtil" : "0",
-            "Perinci::Sub::To::POD" : "0",
-            "Perinci::Sub::To::Text" : "0",
             "Perinci::Sub::Wrapper" : "0",
             "Perinci::Sub::Wrapper::Patch::HandlePHPArray" : "0",
+            "Perinci::To::Doc" : "0",
             "Perinci::To::HTML" : "0",
-            "Perinci::To::POD" : "0",
-            "Perinci::To::Text" : "0",
             "Perinci::Tx::Manager" : "0",
             "Perinci::Use" : "0",
             "Perinci::Util" : "0",
@@ -225,7 +228,6 @@
             "Pod::Weaver::Section::Homepage::DefaultCPAN" : "0",
             "Pod::Weaver::Section::Source::DefaultGitHub" : "0",
             "Process::Govern" : "0",
-            "Process::KillTree" : "0",
             "Progress::Any" : "0",
             "Progress::Any::Output" : "0",
             "Progress::Any::Output::Callback" : "0",
@@ -244,6 +246,7 @@
             "SHARYANTO::File::Util" : "0",
             "SHARYANTO::Number::Util" : "0",
             "SHARYANTO::Package::Util" : "0",
+            "SHARYANTO::Proc::Daemon::Prefork" : "0",
             "SHARYANTO::Proc::Util" : "0",
             "SHARYANTO::Roles" : "0",
             "SHARYANTO::SQL::Schema" : "0",
@@ -307,6 +310,201 @@
          "web" : "https://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Authored"
       }
    },
-   "version" : "0.19"
+   "version" : "0.2",
+   "x_Dist_Zilla" : {
+      "perl" : {
+         "version" : "5.018002"
+      },
+      "plugins" : [
+         {
+            "class" : "Dist::Zilla::Plugin::MetaResources",
+            "name" : "MetaResources",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::GatherDir",
+            "name" : "@Author::SHARYANTO::Task/@Filter/@Filter/GatherDir",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::PruneCruft",
+            "name" : "@Author::SHARYANTO::Task/@Filter/@Filter/PruneCruft",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::ManifestSkip",
+            "name" : "@Author::SHARYANTO::Task/@Filter/@Filter/ManifestSkip",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::MetaYAML",
+            "name" : "@Author::SHARYANTO::Task/@Filter/@Filter/MetaYAML",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::License",
+            "name" : "@Author::SHARYANTO::Task/@Filter/@Filter/License",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::ExtraTests",
+            "name" : "@Author::SHARYANTO::Task/@Filter/@Filter/ExtraTests",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::ExecDir",
+            "name" : "@Author::SHARYANTO::Task/@Filter/@Filter/ExecDir",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::ShareDir",
+            "name" : "@Author::SHARYANTO::Task/@Filter/@Filter/ShareDir",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::MakeMaker",
+            "name" : "@Author::SHARYANTO::Task/@Filter/@Filter/MakeMaker",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::Manifest",
+            "name" : "@Author::SHARYANTO::Task/@Filter/@Filter/Manifest",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::ConfirmRelease",
+            "name" : "@Author::SHARYANTO::Task/@Filter/@Filter/ConfirmRelease",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::UploadToCPAN",
+            "name" : "@Author::SHARYANTO::Task/@Filter/@Filter/UploadToCPAN",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::Author::SHARYANTO::MetaResources",
+            "name" : "@Author::SHARYANTO::Task/@Filter/Author::SHARYANTO::MetaResources",
+            "version" : "0.01"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::CheckChangeLog",
+            "name" : "@Author::SHARYANTO::Task/@Filter/CheckChangeLog",
+            "version" : "0.01"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::CheckMetaResources",
+            "name" : "@Author::SHARYANTO::Task/@Filter/CheckMetaResources",
+            "version" : "0.001"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::MetaJSON",
+            "name" : "@Author::SHARYANTO::Task/@Filter/MetaJSON",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::MetaConfig",
+            "name" : "@Author::SHARYANTO::Task/@Filter/MetaConfig",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::OurPkgVersion",
+            "name" : "@Author::SHARYANTO::Task/@Filter/OurPkgVersion",
+            "version" : "0.005001"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::ReadmeFromPod",
+            "name" : "@Author::SHARYANTO::Task/@Filter/ReadmeFromPod",
+            "version" : "0.21"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::Rinci::Validate",
+            "name" : "@Author::SHARYANTO::Task/@Filter/Rinci::Validate",
+            "version" : "0.11"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::Test::Compile",
+            "config" : {
+               "Dist::Zilla::Plugin::Test::Compile" : {
+                  "filename" : "t/00-compile.t",
+                  "module_finder" : [
+                     ":InstallModules"
+                  ],
+                  "script_finder" : [
+                     ":ExecFiles"
+                  ]
+               }
+            },
+            "name" : "@Author::SHARYANTO::Task/@Filter/Test::Compile",
+            "version" : "2.039"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::Test::Rinci",
+            "name" : "@Author::SHARYANTO::Task/@Filter/Test::Rinci",
+            "version" : "0.01"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::Run::BeforeBuild",
+            "name" : "@Author::SHARYANTO::Task/@Filter/Run::BeforeBuild",
+            "version" : "0.020"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::Run::Release",
+            "name" : "@Author::SHARYANTO::Task/@Filter/Run::Release",
+            "version" : "0.020"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::TaskWeaver",
+            "name" : "@Author::SHARYANTO::Task/TaskWeaver",
+            "version" : "0.101626"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::FinderCode",
+            "name" : ":InstallModules",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::FinderCode",
+            "name" : ":IncModules",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::FinderCode",
+            "name" : ":TestFiles",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::FinderCode",
+            "name" : ":ExecFiles",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::FinderCode",
+            "name" : ":ShareFiles",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::FinderCode",
+            "name" : ":MainModule",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::FinderCode",
+            "name" : ":AllFiles",
+            "version" : "5.013"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::FinderCode",
+            "name" : ":NoFiles",
+            "version" : "5.013"
+         }
+      ],
+      "zilla" : {
+         "class" : "Dist::Zilla::Dist::Builder",
+         "config" : {
+            "is_trial" : "0"
+         },
+         "version" : "5.013"
+      }
+   }
 }
 

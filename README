@@ -3,21 +3,19 @@ NAME
     SHARYANTO on CPAN
 
 VERSION
-    version 0.19
+    version 0.2
 
 DESCRIPTION
     This task will install all modules authored by SHARYANTO currently on
     CPAN. Excluded are other Task::* modules, or modules already deletd from
     CPAN.
 
-FUNCTIONS
-    None are exported by default, but they are exportable.
-
 TASK CONTENTS
   Included modules
    Acme::CPANAuthors::Indonesian
    Alt::Base
    Alt::Log::Any::App::FWR
+   App::ExecIf
    App::HTMLCalendarMonth::Indonesia
    App::HasPrereqs
    App::LintPrereqs
@@ -29,9 +27,11 @@ TASK CONTENTS
    App::UniqFiles
    App::cal::id
    App::dux
+   App::jpath
    App::norepeat
    App::osnames
    App::perlmv
+   App::pretty
    App::riap
    App::smtpstatus
    Array::Find
@@ -84,6 +84,7 @@ TASK CONTENTS
    Dist::Zilla::Plugin::ConvertYAMLChanges
    Dist::Zilla::Plugin::Extras
    Dist::Zilla::Plugin::Rinci::Validate
+   Dist::Zilla::Plugin::Rinci::Wrap
    Dist::Zilla::Plugin::Test::Rinci
    Dist::Zilla::PluginBundle::Author::SHARYANTO
    File::Append::Undoable
@@ -128,6 +129,7 @@ TASK CONTENTS
    Locale::ID::GuessGender::FromFirstName
    Locale::ID::Locality
    Locale::ID::Province
+   Locale::TextDomain::UTF8
    Log::Any::Adapter::Callback
    Log::Any::Adapter::Core::Patch::SetDumperIndent
    Log::Any::Adapter::Core::Patch::UseDataDump
@@ -153,6 +155,7 @@ TASK CONTENTS
    Org::To::HTML
    Org::To::Pod
    Org::To::Text
+   Org::To::VCF
    Parse::Netstat
    Parse::Number::EN
    Parse::Number::ID
@@ -194,13 +197,10 @@ TASK CONTENTS
    Perinci::Sub::Property::retry
    Perinci::Sub::Property::timeout
    Perinci::Sub::PropertyUtil
-   Perinci::Sub::To::POD
-   Perinci::Sub::To::Text
    Perinci::Sub::Wrapper
    Perinci::Sub::Wrapper::Patch::HandlePHPArray
+   Perinci::To::Doc
    Perinci::To::HTML
-   Perinci::To::POD
-   Perinci::To::Text
    Perinci::Tx::Manager
    Perinci::Use
    Perinci::Util
@@ -214,7 +214,6 @@ TASK CONTENTS
    Pod::Weaver::Section::Homepage::DefaultCPAN
    Pod::Weaver::Section::Source::DefaultGitHub
    Process::Govern
-   Process::KillTree
    Progress::Any
    Progress::Any::Output
    Progress::Any::Output::Callback
@@ -233,6 +232,7 @@ TASK CONTENTS
    SHARYANTO::File::Util
    SHARYANTO::Number::Util
    SHARYANTO::Package::Util
+   SHARYANTO::Proc::Daemon::Prefork
    SHARYANTO::Proc::Util
    SHARYANTO::Roles
    SHARYANTO::SQL::Schema
@@ -283,8 +283,8 @@ SOURCE
 
 BUGS
     Please report any bugs or feature requests on the bugtracker website
-    "/rt.cpan.org/Public/Dist/Display.html?Name=Task-BeLike-SHARYANTO-A
-    uthored" in https:
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Task-BeLike-SHARYANTO
+    -Authored>
 
     When submitting a bug or request, please include a test-file or a patch
     to an existing test-file that illustrates the bug or desired feature.
@@ -293,7 +293,7 @@ AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2013 by Steven Haryanto.
+    This software is copyright (c) 2014 by Steven Haryanto.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
